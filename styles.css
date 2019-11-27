@@ -1,5 +1,5 @@
-h1 {
-	font-size: 80px;
+#home-title {
+	font-size: 40px;
 
 	/* horizontal align */
 	width: 100%;
@@ -18,3 +18,9 @@ h2 a {
 	text-decoration: none;
 	margin: 5px 15px 5px 15px;
 }
+
+#others-title {	
+	font-size: 20px;
+	margin: 20px 0px 20px 0px;
+}
+
