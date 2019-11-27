@@ -1,7 +1,3 @@
-body {
-	background-image: url("images/backgroundddd.jpg");
-}
-
 h1 {
 	font-size: 80px;
 
@@ -16,6 +12,8 @@ h1 {
 }	
 
 h2 a {
-	color: white;
-	text-align: left;
+	color: black;
+	float: right;
+	text-decoration: none;
+	margin: 5px 15px 5px 15px;
 }
