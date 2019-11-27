@@ -1,5 +1,5 @@
 body {
-	background-image: url("images/background.jpg");
+	background-image: url("images/backgroundddd.jpg");
 }
 
 h1 {
@@ -15,7 +15,7 @@ h1 {
 	transform: translateY(-50%);
 }	
 
-h2 {
+h2 a {
 	color: white;
 	text-align: left;
 }
