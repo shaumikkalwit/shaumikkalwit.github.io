@@ -18,13 +18,15 @@ h2 a {
 	float: right;
 	font-size: 20px;
 	text-decoration: none;
-	margin: 2px 15px 2px 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	margin-left: 10px;
 }
 
 #others-title {	
 	color: gold;
 	font-size: 20px;
-	margin: 20px 0px 20px 0px;
 }
 #home-textpara {
 
@@ -34,7 +36,7 @@ h2 a {
 	/* vertical align*/
 	positive: absolute;
 	top: 40%;
-	transform: translateY(450%);
+	transform: translateY(350%);
 	margin-left: 10px;
 }
 #home-h2 {
@@ -44,4 +46,5 @@ h2 a {
 dt {
 	font-size: 18px;
 }
+
 
