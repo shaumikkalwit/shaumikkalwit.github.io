@@ -37,5 +37,11 @@ h2 a {
 	transform: translateY(450%);
 	margin-left: 10px;
 }
+#home-h2 {
+	color: gold;
+}
 
+dt {
+	font-size: 18px;
+}
 
