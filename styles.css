@@ -1,5 +1,6 @@
 #home-title {
 	font-size: 40px;
+	background-image: url("images/backgrounddddd.jpg");
 
 	/* horizontal align */
 	width: 100%;
@@ -12,7 +13,7 @@
 }	
 
 h2 a {
-	color: black;
+	color: gold;
 	float: right;
 	font-size: 20px;
 	text-decoration: none;
@@ -20,7 +21,11 @@ h2 a {
 }
 
 #others-title {	
+	color: gold;
 	font-size: 20px;
 	margin: 20px 0px 20px 0px;
+}
+#home-body {
+	background-image: "images/backgrounddddd.jpg";
 }
 
