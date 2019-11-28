@@ -1,4 +1,5 @@
 #home-title {
+	color: white;
 	font-size: 40px;
 	background-image: url("images/backgrounddddd.jpg");
 
@@ -25,7 +26,16 @@ h2 a {
 	font-size: 20px;
 	margin: 20px 0px 20px 0px;
 }
-#home-body {
-	background-image: "images/backgrounddddd.jpg";
+#home-textpara {
+
+	/* horizontal align*/
+	width: 50%;
+
+	/* vertical align*/
+	positive: absolute;
+	top: 40%;
+	transform: translateY(450%);
+	margin-left: 10px;
 }
+
 
