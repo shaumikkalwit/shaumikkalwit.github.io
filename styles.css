@@ -1,3 +1,68 @@
+html {
+	height: 100%;
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+body {	
+	height: 100%;
+	width: 100%;
+
+	margin: 0;
+}
+
+header {
+	/* nav align */
+	display: flex;
+	justify-content: flex-start;	
+}
+.header-elem {
+	/* nav align */
+	width: 10%
+}
+.header-elem a {
+	color: gold;
+	font-size: 20px;
+	text-decoration: none;
+	
+	/* nav align */
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-elem img {
+
+	top: 0;
+	bottom: 100;
+
+	width: 25px;
+	height: 25px;
+
+	psotion: relative;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#header-links #header-icons {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#others-nav h2 a {
+	color: gold;
+	float: right;
+	font-size: 20px;
+	text-decoration: none;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	margin-left: 10px;	
+}
 #home-title {
 	color: white;
 	font-size: 40px;
@@ -11,22 +76,6 @@
 	position: absolute;
 	top: 40%;
 	transform: translateY(-50%);
-}	
-
-h2 a {
-	color: gold;
-	float: right;
-	font-size: 20px;
-	text-decoration: none;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-right: 15px;
-	margin-left: 10px;
-}
-
-#others-title {	
-	color: gold;
-	font-size: 20px;
 }
 #home-textpara {
 
@@ -36,15 +85,21 @@ h2 a {
 	/* vertical align*/
 	positive: absolute;
 	top: 40%;
-	transform: translateY(350%);
+	transform: translateY(400%);
 	margin-left: 10px;
 }
+
 #home-h2 {
 	color: gold;
 }
 
 dt {
-	font-size: 18px;
+	font-size: 18px;	
 }
+#others-title {	
+	color: gold;
+	font-size: 20px;
+}
+
 
 
