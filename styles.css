@@ -19,15 +19,14 @@ header {
 	/* nav align */
 	display: flex;
 	flex-direction: row;
+	align-items: flex-start;
 }
 
 .header-elem {
-	/* nav align */
-	width: 10%
-
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 	flex-direction: row;
+	align-items: flex-start;
 }
 
 .header-elem a {
@@ -38,6 +37,7 @@ header {
 	/* nav align */
 	display: flex;
 	justify-content: flex-start;
+	align-items: flex-start;
 }
 
 .header-elem img {
@@ -51,6 +51,7 @@ header {
 	display: flex;
 	justify-content: flex-end;
 	flex-direction: row;
+	align-items: flex-start;
 
 }
 
@@ -58,6 +59,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
+	align-items: flex-start;
 
 }
 #home-title {
@@ -73,7 +75,7 @@ header {
 	position: absolute;
 	top: 40%;
 	transform: translateY(-50%);
-	
+
 }
 #home-textpara {
 
