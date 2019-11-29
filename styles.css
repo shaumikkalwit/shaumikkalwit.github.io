@@ -60,6 +60,9 @@ header {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
+	float: right;
+
+	margin-left: 1225px;
 }
 
 #header-links #header-icons {
