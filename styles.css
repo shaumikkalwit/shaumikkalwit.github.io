@@ -24,6 +24,8 @@ header {
 #header-links {
 	display: flex;
 	flex-direction: row;
+
+	margin-top: 10px;
 }
 
 .header-elem {
@@ -63,6 +65,7 @@ header {
 	float: right;
 
 	margin-left: 1225px;
+	margin-top: 10px;
 }
 
 #header-links #header-icons {
