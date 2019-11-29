@@ -16,7 +16,6 @@ body {
 }
 
 header {
-	/* nav align */
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
@@ -80,8 +79,6 @@ header {
 	/* horizontal align*/
 	width: 50%;
 
-	/* vertical align*/
-	positive: absolute;
 	top: 40%;
 	transform: translateY(400%);
 	margin-left: 10px;
