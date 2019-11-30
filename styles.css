@@ -17,8 +17,8 @@ body {
 
 header {
 	display: flex;
+	justify-content: space-between;
 	flex-direction: row;
-	align-items: flex-start;
 }
 
 #header-links {
@@ -29,42 +29,26 @@ header {
 }
 
 .header-elem {
-	font-size: 10px;
-
 	display: flex;
 	flex-direction: row;
+	text-align: center;
 }
 
 .header-elem a {
+	width: 100px;
 	color: gold;
 	font-size: 20px;
 	text-decoration: none;
-	float: left;
-
-	margin-left: 10px;
-
-	display: flex;
-	flex-direction: row;
 }
 
 .header-elem img {
-
 	width: 20px;
 	height: 20px;
-
-	float: right;
-
-	display: flex;
-	flex-direction: row;
-	justify-content: right;
 }
 #header-icons {
 	display: flex;
 	flex-direction: row;
-	align-items: flex-start;
-	float: right;
 
-	margin-left: 1225px;
 	margin-top: 10px;
 }
 
@@ -95,7 +79,7 @@ header {
 	width: 50%;
 
 	top: 40%;
-	transform: translateY(400%);
+	transform: translateY(300%);
 	margin-left: 10px;
 }
 
@@ -104,8 +88,19 @@ header {
 }
 
 dt {
-	font-size: 18px;	
+	font-size: 21px;
+	margin-left: 15px;	
+}
+
+dd {
+	font-size: 20px;
 }
 
 
+#others-title {
+	margin-left: 15px;
+}
+h2 {
+	margin-left: 15px;
+}
 
