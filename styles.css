@@ -13,9 +13,16 @@ body {
 	width: 100%;
 
 	margin: 0;
+
+	background-image: url("images/background5.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: cover;
 }
 
 header {
+	background-color: white;
+
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
@@ -42,8 +49,8 @@ header {
 }
 
 .header-elem img {
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 }
 #header-icons {
 	display: flex;
@@ -60,7 +67,6 @@ header {
 #home-title {
 	color: white;
 	font-size: 40px;
-	background-image: url("images/backgrounddddd.jpg");
 
 	/* horizontal align */
 	width: 100%;
@@ -75,12 +81,14 @@ header {
 
 #home-textpara {
 
-	/* horizontal align*/
-	width: 50%;
-
 	top: 40%;
-	transform: translateY(300%);
-	margin-left: 10px;
+	transform: translateY(200%);
+	text-align: center;
+
+	margin-left: 500px;
+	margin-right: 500px;
+
+	font-size: 18px;
 }
 
 #home-h2 {
@@ -90,18 +98,34 @@ header {
 dt {
 	font-size: 21px;
 	margin-left: 15px;	
+	color: white;
 }
 
 dd {
 	font-size: 20px;
+	color: white;
 }
 
 
 #others-title {
 	margin-left: 15px;
 	color: gold;
+	text-align: center;
 }
 h2 {
 	margin-left: 15px;
 }
 
+#other-text {
+	text-align: center;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+
+	margin: 0;
+	padding: 0;
+
+	font-size: 20px;
+}
