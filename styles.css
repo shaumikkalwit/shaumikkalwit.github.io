@@ -96,14 +96,16 @@ header {
 }
 
 dt {
-	font-size: 21px;
+	font-size: 20px;
 	margin-left: 15px;	
 	color: white;
+	text-align: center;
 }
 
 dd {
-	font-size: 20px;
+	font-size: 23px;
 	color: white;
+	text-align: center;
 }
 
 
@@ -114,6 +116,7 @@ dd {
 }
 h2 {
 	margin-left: 15px;
+	font-size: 25px;
 }
 
 #other-text {
