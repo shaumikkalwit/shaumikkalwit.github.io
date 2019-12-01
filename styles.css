@@ -98,20 +98,6 @@ header {
 	color: gold;
 }
 
-dt {
-	font-size: 20px;
-	margin-left: 15px;	
-	color: white;
-	text-align: center;
-}
-
-dd {
-	font-size: 23px;
-	color: white;
-	text-align: center;
-}
-
-
 #others-title {
 	margin-left: 15px;
 	color: gold;
@@ -125,6 +111,11 @@ h2 {
 #other-text {
 	text-align: center;
 	color: white;
+}
+
+#otherother-text {
+	color: white;
+	text-align: center;
 }
 
 ul {
@@ -144,3 +135,5 @@ ul {
    color: white;
    text-align: center;
 }
+
+
