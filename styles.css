@@ -43,7 +43,7 @@ header {
 
 .header-elem a {
 	width: 100px;
-	color: gold;
+	color: pink;
 	font-size: 20px;
 	text-decoration: none;
 }
@@ -70,7 +70,7 @@ header {
 }
 
 #home-title {
-	color: gold;
+	color: white;
 	font-size: 40px;
 
 	/* horizontal align */
