@@ -44,7 +44,7 @@ header {
 .header-elem a {
 	width: 100px;
 	color: pink;
-	font-size: 20px;
+	font-size: 21px;
 	text-decoration: none;
 }
 
@@ -52,16 +52,16 @@ header {
 	/*  https://www.flaticon.com/free-icon/instagram_2111463 */
 	/* https://www.flaticon.com/free-icon/github_270798?term=Github&page=1&position=9 */
 	
-	width: 27px;
-	height: 27px;
+	width: 28px;
+	height: 28px;
 
-	margin-bottom: 8px;
+	margin-bottom: 10px;
 }
 #header-icons {
 	display: flex;
 	flex-direction: row;
 
-	margin-top: 8px;
+	margin-top: 10px;
 }
 
 #header-links #header-icons {
@@ -85,8 +85,10 @@ header {
 
 #home-textpara {
 
+	background-color: pink;
+
 	top: 40%;
-	transform: translateY(204%);
+	transform: translateY(203%);
 	text-align: center;
 
 	margin-left: 500px;
@@ -96,7 +98,7 @@ header {
 }
 
 #home-h2 {
-	color: gold;
+	color: white;
 }
 
 #others-title {
@@ -137,4 +139,6 @@ ul {
    text-align: center;
 }
 
-
+#contactpage-bottomtext {
+	background-color: pink;
+}
