@@ -70,7 +70,7 @@ header {
 }
 
 #home-title {
-	color: white;
+	color: purple;
 	font-size: 40px;
 
 	/* horizontal align */
@@ -79,13 +79,11 @@ header {
 	
 	/* vertical align */
 	position: absolute;
-	top: 45%;
+	top: 50%;
 	transform: translateY(-50%);
 }
 
 #home-textpara {
-
-	background-color: pink;
 
 	top: 40%;
 	transform: translateY(203%);
