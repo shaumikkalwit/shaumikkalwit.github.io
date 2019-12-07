@@ -140,3 +140,13 @@ ul {
 #contactpage-bottomtext {
 	background-color: pink;
 }
+
+#aboutmepic {
+	width: 30px;
+	height: 30px;
+}
+
+.other-pic {
+	width: 30px;
+	height: 30px;
+}
