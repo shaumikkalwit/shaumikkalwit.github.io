@@ -144,8 +144,6 @@ ul {
 
 #aboutmepic {
 	display: flex;
-	justify-content: flex-end;
-
-	margin-left: 500px;
-	margin-right: 500px;
+	justify-content: flex-start;
+	align-items: center;
 }
