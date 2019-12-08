@@ -121,6 +121,7 @@ h2 {
 
 ul {
 	list-style-type: none;
+	background-color: lightblue;
 
 	margin: 0;
 	padding: 0;
@@ -142,11 +143,9 @@ ul {
 }
 
 #aboutmepic {
-	width: 30px;
-	height: 30px;
-}
+	display: flex;
+	justify-content: flex-start;
 
-.other-pic {
-	width: 30px;
-	height: 30px;
+	width: 25%;
+	height: 25%;
 }
