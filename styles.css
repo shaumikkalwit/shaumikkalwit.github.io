@@ -110,8 +110,9 @@ h2 {
 }
 
 #other-text {
-	text-align: center;
+	text-align: center; 
 	color: black;
+	top: 90%;
 }
 
 #otherother-text {
@@ -145,5 +146,6 @@ ul {
 #aboutmepic {
 	display: flex;
 	justify-content: flex-start;
-	align-items: center;
+	
+	transform: translateY(135%);
 }
