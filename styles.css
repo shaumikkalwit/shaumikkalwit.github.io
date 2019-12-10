@@ -112,7 +112,8 @@ h2 {
 #other-text {
 	text-align: center; 
 	color: black;
-	top: 90%;
+
+	top: 15%;
 }
 
 #otherother-text {
@@ -147,5 +148,9 @@ ul {
 	display: flex;
 	justify-content: flex-start;
 	
-	transform: translateY(135%);
+	transform: translateY(-200%);
+
+	height: 200px;
+	width: 500px;
+	margin-left: 20px;
 }
