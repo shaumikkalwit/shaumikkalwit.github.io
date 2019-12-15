@@ -83,18 +83,6 @@ header {
 	transform: translateY(-50%);
 }
 
-#home-textpara {
-
-	top: 50%;
-	transform: translateY(248%);
-	text-align: center;
-
-	margin-left: 500px;
-	margin-right: 500px;
-
-	font-size: 16px;
-}
-
 #home-h2 {
 	color: pink;
 }
@@ -117,13 +105,12 @@ h2 {
 }
 
 #otherother-text {
-	color: white;
+	color: black;
 	text-align: center;
 }
 
 ul {
 	list-style-type: none;
-	background-color: lightblue;
 
 	margin: 0;
 	padding: 0;
@@ -136,7 +123,7 @@ ul {
    left: 0;
    bottom: 0;
    width: 100%;
-   color: white;
+   color: gold;
    text-align: center;
 }
 
@@ -148,7 +135,7 @@ ul {
 	display: flex;
 	justify-content: flex-start;
 	
-	transform: translateY(-200%);
+	transform: translateY(-215%);
 
 	height: 200px;
 	width: 500px;
