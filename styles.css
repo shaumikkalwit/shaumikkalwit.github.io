@@ -135,7 +135,7 @@ ul {
 	display: flex;
 	justify-content: flex-start;
 	
-	transform: translateY(-215%);
+	transform: translateY(-205%);
 
 	height: 200px;
 	width: 500px;
@@ -154,6 +154,6 @@ ul {
   border-left: 6px solid pink;
   height: 1200px;
   position: absolute;
-  right: 28%;
+  right: 28%	;
   top: 6.8%;
 }
