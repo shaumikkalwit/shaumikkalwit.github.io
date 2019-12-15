@@ -141,3 +141,19 @@ ul {
 	width: 500px;
 	margin-left: 20px;
 }
+
+.verticalline {
+  border-left: 6px solid pink;
+  height: 1200px;
+  position: absolute;
+  left: 28%;
+  top: 6.8%;
+}
+
+.verticalline2 {
+  border-left: 6px solid pink;
+  height: 1200px;
+  position: absolute;
+  right: 28%;
+  top: 6.8%;
+}
