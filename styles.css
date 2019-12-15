@@ -14,7 +14,7 @@ body {
 
 	margin: 0;
 
-	background-image: url("images/background5.jpg");
+	background-image: url("images/paintingblue.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
   	background-size: cover;
@@ -96,7 +96,7 @@ header {
 }
 
 #home-h2 {
-	color: white;
+	color: pink;
 }
 
 #others-title {
