@@ -14,7 +14,7 @@ body {
 
 	margin: 0;
 
-	background-image: url("images/paintingblue.jpg");
+	background-image: url("images/otherimage.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
   	background-size: cover;
@@ -160,7 +160,7 @@ ul {
 
 .verticallines {
   border-left: 3px solid pink;
-  height: 414px;
+  height: 417px;
   position: absolute;
   right: 28%;
   top: 6.8%;
@@ -168,7 +168,7 @@ ul {
 
 .verticalline2s {
   border-left: 3px solid pink;
-  height: 414px;
+  height: 417px;
   position: absolute;
   left: 28%;
   top: 6.8%;	
