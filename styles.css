@@ -143,7 +143,7 @@ ul {
 }
 
 .verticalline {
-  border-left: 6px solid pink;
+  border-left: 3px solid pink;
   height: 1200px;
   position: absolute;
   left: 28%;
@@ -151,9 +151,25 @@ ul {
 }
 
 .verticalline2 {
-  border-left: 6px solid pink;
+  border-left: 3px solid pink;
   height: 1200px;
   position: absolute;
-  right: 28%	;
+  right: 28%;
   top: 6.8%;
+}
+
+.verticallines {
+  border-left: 3px solid pink;
+  height: 414px;
+  position: absolute;
+  right: 28%;
+  top: 6.8%;
+}
+
+.verticalline2s {
+  border-left: 3px solid pink;
+  height: 414px;
+  position: absolute;
+  left: 28%;
+  top: 6.8%;	
 }
