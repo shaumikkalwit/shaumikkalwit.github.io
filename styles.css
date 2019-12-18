@@ -14,7 +14,7 @@ body {
 
 	margin: 0;
 
-	background-image: url("images/otherimage.jpg");
+	background-image: url("images/backgrounddddd.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
   	background-size: cover;
@@ -99,13 +99,13 @@ h2 {
 
 #other-text {
 	text-align: center; 
-	color: black;
+	color: white;
 
 	top: 15%;
 }
 
 #otherother-text {
-	color: black;
+	color: white;
 	text-align: center;
 }
 
