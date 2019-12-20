@@ -132,15 +132,26 @@ ul {
 	color: black;
 }
 
-#aboutmepic {
+#aboutmepic1 {
 	display: flex;
 	justify-content: flex-start;
 	
 	transform: translateY(-205%);
 
-	height: 200px;
 	width: 500px;
+	height: 200px;
 	margin-left: 20px;
+}
+
+#aboutmepic2 {
+	display: flex;
+	justify-content: flex-end;
+	
+	transform: translateY(-205%);
+
+	width: 200px;
+	height: 500px;
+	margin-right: 20px;
 }
 
 .verticalline {
