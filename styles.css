@@ -120,8 +120,7 @@ ul {
 
 .footer {
    position: fixed;
-   bottom: 70%;
-   margin-left: 700px;
+   bottom: 0px;
    width: 100%;
    color: gold;
    text-align: center;
@@ -147,7 +146,7 @@ ul {
 	display: flex;
 	justify-content: flex-end;
 	
-	transform: translateY(-205%);
+	transform: translateY(205%);
 
 	width: 200px;
 	height: 500px;
