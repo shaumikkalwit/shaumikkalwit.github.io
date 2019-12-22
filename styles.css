@@ -146,11 +146,11 @@ ul {
 	display: flex;
 	justify-content: flex-end;
 	
-	transform: translateY(205%);
+	transform: translateY(-135%);
 
-	width: 200px;
+	width: 300px;
 	height: 500px;
-	margin-right: 20px;
+	margin-left: 1210px;
 }
 
 .verticalline {
