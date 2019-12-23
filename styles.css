@@ -22,14 +22,11 @@ body {
 	background-repeat: no-repeat; 
 	background-attachment: fixed;
 	background-size: cover;
-	filter: brightness(30%);
 	width: 1600px;
 	height: 900px;
 	z-index: 0;
 }
 header {
-	background-color: white;
-
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
@@ -77,7 +74,7 @@ header {
 }
 
 #home-title {
-	color: black;
+	color: white;
 	font-size: 40px;
 
 	/* horizontal align */
@@ -129,7 +126,7 @@ ul {
    position: fixed;
    bottom: 0px;
    width: 100%;
-   color: gold;
+   color: white;
    text-align: center;
 }
 
@@ -155,9 +152,9 @@ ul {
 	
 	transform: translateY(-135%);
 
-	width: 300px;
+	width: 400px;
 	height: 500px;
-	margin-left: 1210px;
+	margin-left: 1115px;
 }
 
 .verticalline {
@@ -193,5 +190,5 @@ ul {
 }
 
 #maintext {
-	background-color: black;
+	background-color: black;    
 }
