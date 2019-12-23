@@ -1,6 +1,4 @@
-* {
-	z-index: 1;
-}
+
 html {
 	height: 100%;
 	width: 100%;
@@ -16,11 +14,16 @@ body {
 	width: 100%;
 
 	margin: 0;
+
+	background-image: url("images/backgroundbusop41.jpg");
+	background-repeat: no-repeat; 
+	background-size: cover;
+	width: 1600px;
+	height: 900px;
 }
 
 #backgroundpic {
 	background-repeat: no-repeat; 
-	background-attachment: fixed;
 	background-size: cover;
 	width: 1600px;
 	height: 900px;
@@ -47,7 +50,7 @@ header {
 
 .header-elem a {
 	width: 100px;
-	color: pink;
+	color: white;
 	font-size: 21px;
 	text-decoration: none;
 }
