@@ -22,13 +22,6 @@ body {
 	height: 900px;
 }
 
-#backgroundpic {
-	background-repeat: no-repeat; 
-	background-size: cover;
-	width: 1600px;
-	height: 900px;
-	z-index: 0;
-}
 header {
 	display: flex;
 	justify-content: space-between;
@@ -39,13 +32,19 @@ header {
 	display: flex;
 	flex-direction: row;
 
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .header-elem {
 	display: flex;
 	flex-direction: row;
 	text-align: center;
+
+	width: 95px;
+	border: 2px solid white;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 3px;
 }
 
 .header-elem a {
@@ -54,7 +53,6 @@ header {
 	font-size: 21px;
 	text-decoration: none;
 }
-
 .header-elem img {
 	/*  https://www.flaticon.com/free-icon/instagram_2111463 */
 	/* https://www.flaticon.com/free-icon/github_270798?term=Github&page=1&position=9 */
@@ -63,6 +61,8 @@ header {
 	height: 28px;
 
 	margin-bottom: 10px;
+
+	list-style-type: none;
 }
 #header-icons {
 	display: flex;
@@ -95,6 +95,7 @@ header {
 }
 
 #others-title {
+	margin-top: 10px;
 	margin-left: 15px;
 	color: gold;
 	text-align: center;
@@ -194,4 +195,8 @@ ul {
 
 #maintext {
 	background-color: black;    
+}
+
+#abouthead {
+	background-color: black;
 }
