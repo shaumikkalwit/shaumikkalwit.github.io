@@ -18,8 +18,8 @@ body {
 	background-image: url("images/backgroundbusop41.jpg");
 	background-repeat: no-repeat; 
 	background-size: cover;
-	width: 1600px;
-	height: 900px;
+	width: 100%;
+	height: 100%;
 }
 
 header {
@@ -60,8 +60,8 @@ header {
 	/*  https://www.flaticon.com/free-icon/instagram_2111463 */
 	/* https://www.flaticon.com/free-icon/github_270798?term=Github&page=1&position=9 */
 	
-	width: 23px;
-	height: 23px;
+	width: 25px;
+	height: 25px;
 
 	margin-bottom: 10px;
 
@@ -157,27 +157,11 @@ ul {
 	display: flex;
 	justify-content: flex-end;
 	
-	transform: translateY(-135%);
+	transform: translateY(-15%);
 
-	width: 400px;
+	width: 500px;
 	height: 500px;
-	margin-left: 1115px;
-}
-
-.verticalline {
-  border-left: 3px solid pink;
-  height: 1300px;
-  position: absolute;
-  left: 28%;
-  top: 9.3%;
-}
-
-.verticalline2 {
-  border-left: 3px solid pink;
-  height: 1300px;
-  position: absolute;
-  right: 28%;
-  top: 9.3%;
+	margin-left: 1000px;
 }
 
 .verticallines {
