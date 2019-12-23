@@ -26,6 +26,8 @@ header {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
+
+	font-family: 'Courier New', Courier, header-elem;
 }
 
 #header-links {
@@ -43,23 +45,23 @@ header {
 	width: 95px;
 	border: 2px solid white;
 	padding-top: 10px;
-	margin-right: 15px;
-	margin-left: 15px;
-	margin-top: 3px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 1px;
 }
 
 .header-elem a {
 	width: 100px;
 	color: white;
-	font-size: 21px;
+	font-size: 18px;
 	text-decoration: none;
 }
 .header-elem img {
 	/*  https://www.flaticon.com/free-icon/instagram_2111463 */
 	/* https://www.flaticon.com/free-icon/github_270798?term=Github&page=1&position=9 */
 	
-	width: 28px;
-	height: 28px;
+	width: 23px;
+	height: 23px;
 
 	margin-bottom: 10px;
 
