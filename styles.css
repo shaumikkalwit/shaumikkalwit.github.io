@@ -42,6 +42,7 @@ header {
 
 	width: 95px;
 	border: 2px solid white;
+	padding-top: 10px;
 	margin-right: 15px;
 	margin-left: 15px;
 	margin-top: 3px;
@@ -163,40 +164,36 @@ ul {
 
 .verticalline {
   border-left: 3px solid pink;
-  height: 1200px;
+  height: 1300px;
   position: absolute;
   left: 28%;
-  top: 6.8%;
+  top: 9.3%;
 }
 
 .verticalline2 {
   border-left: 3px solid pink;
-  height: 1200px;
+  height: 1300px;
   position: absolute;
   right: 28%;
-  top: 6.8%;
+  top: 9.3%;
 }
 
 .verticallines {
   border-left: 3px solid pink;
-  height: 417px;
+  height: 414px;
   position: absolute;
   right: 28%;
-  top: 6.8%;
+  top: 9.3%;
 }
 
 .verticalline2s {
   border-left: 3px solid pink;
-  height: 417px;
+  height: 414px;
   position: absolute;
   left: 28%;
-  top: 6.8%;	
+  top: 9.3%;	
 }
 
 #maintext {
-	background-color: black;    
-}
-
-#abouthead {
-	background-color: black;
+	background-color: black;   
 }
