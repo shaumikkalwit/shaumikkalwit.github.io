@@ -171,18 +171,26 @@ ul {
 	display: flex;
 	justify-content: flex-start;
 	
-	transform: translateY(-205%);
+	transform: translateY(25%);
 
 	width: 500px;
 	height: 200px;
-	margin-left: 20px;
+	margin-left: 155px;
+}
+#aboutmepic1text {
+
+	transform: translateY(103%);
+	margin-left: 155px;
+
+	font-size: 20px;
+	color: white;
 }
 
 #aboutmepic2 {
 	display: flex;
 	justify-content: flex-end;
 	
-	transform: translateY(-30%);
+	transform: translateY(-61%);
 
 	width: 500px;
 	height: 500px;
@@ -191,7 +199,7 @@ ul {
 
 #aboutmepic2text {
 
-	transform: translateY(-1050%);
+	transform: translateY(-1780%);
 	margin-left: 1035px;
 
 	font-size: 20px;
