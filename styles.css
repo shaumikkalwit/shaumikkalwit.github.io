@@ -185,22 +185,6 @@ ul {
 	margin-left: 1000px;
 }
 
-.verticallines {
-  border-left: 3px solid pink;
-  height: 414px;
-  position: absolute;
-  right: 28%;
-  top: 9.3%;
-}
-
-.verticalline2s {
-  border-left: 3px solid pink;
-  height: 414px;
-  position: absolute;
-  left: 28%;
-  top: 9.3%;	
-}
-
 #maintext {
 	background-color: black;   
 }
