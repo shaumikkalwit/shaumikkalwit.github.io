@@ -182,11 +182,20 @@ ul {
 	display: flex;
 	justify-content: flex-end;
 	
-	transform: translateY(-15%);
+	transform: translateY(-30%);
 
 	width: 500px;
 	height: 500px;
-	margin-left: 1000px;
+	margin-left: 800px;
+}
+
+#aboutmepic2text {
+
+	transform: translateY(-1050%);
+	margin-left: 1035px;
+
+	font-size: 20px;
+	color: white;
 }
 
 #maintext {
