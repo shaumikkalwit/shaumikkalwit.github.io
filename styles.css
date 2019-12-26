@@ -71,6 +71,8 @@ header {
 	display: flex;
 	flex-direction: row;
 	text-align: center;	
+
+	margin-right: 20px;
 }
 
 .header-eleml a {
@@ -100,7 +102,7 @@ header {
 
 	margin-bottom: 10px;
 	margin-top: 5px;
-	margin-right: 50px;
+	margin-right: 120px;
 
 	list-style-type: none;
 }
