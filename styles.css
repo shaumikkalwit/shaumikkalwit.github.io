@@ -12,6 +12,7 @@ body {
 	width: 100%;
 	height: 100%;
 }
+
 #header-links {
 	display: flex;
 	align-items: center;
@@ -51,6 +52,7 @@ body {
 	color: black;
 }
 
+/* HOME PAGE ONLY */
 .home-title {
 	width: 100%;
 
@@ -83,15 +85,35 @@ body {
 
 .icon img {
 	position: relative;
-	top: 100px;
+	top: 400px;
 
-	width: 30px;
-	height: 30px;
+	width: 20px;
+	height: 20px;
 
 	transform: translateY(70%);
 
-	transform: translateX(2350%);
+	transform: translateX(3750%);
 
-	margin-left: 30px;
-	margin-right: 35px;
+	margin-left: 15px;
+	margin-right: 17px;
+}
+
+/* ABOUT PAGE ONLY */
+
+.other-titles {
+	font-size: 50px;
+
+	transform: translateY(40%);
+
+	margin-left: 40px;
+}
+
+.aboutmemepic {
+  	border-radius: 25px;
+  	background: url("images/profilePicture.jpg");
+  	background-position: left top;
+  	background-repeat: repeat;
+  	padding: 20px;
+  	width: 200px;
+  	height: 150px;
 }
