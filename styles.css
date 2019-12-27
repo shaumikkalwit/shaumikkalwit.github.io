@@ -1,25 +1,26 @@
 #header-links {
 	display: flex;
+	align-items: center;
 	justify-content: flex-end;
-	align-items: flex-end;
-	justify-content: space-around;
-
-	
 
 	font-family: 'Courier New', Courier, header-elem;
 }
 
-#header-elem1 {
-	margin-top: 20px;
+.header-eleml {
+	border-radius: 25px;
+  	border: 2px solid black;
+ 	padding-top: 7.5px;
+ 	padding-bottom: 5px;
+ 	padding-right: 5px;
+ 	padding-left: 5px;
+  	width: 95px;
+  	height: 28px;
 }
 
 .header-eleml a {
-	color: black;
-	text-decoration: none;
+	margin-right: 20px;
 
-	border-radius: 25px;
-	border: 2px solid black;
-  	padding: 20px;
-  	width: 100px;
-  	height: 25px;
+	text-decoration: none; 
+
+	color: black;
 }
