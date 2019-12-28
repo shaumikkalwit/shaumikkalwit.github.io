@@ -18,7 +18,7 @@ body {
 	align-items: center;
 	justify-content: flex-end;
 
-	font-family: 'Courier New', Courier, header-elem;
+	font-family: 'Courier New', Courier, header-eleml;
 }
 
 .header-eleml {
@@ -56,11 +56,13 @@ body {
 .home-title {
 	width: 100%;
 
-	font-size: 40px;
+	font-size: 45px;
 
-	transform: translateY(80%);
+	transform: translateY(60%);
 
 	text-align: center;
+
+	font-family: 'Kaushan Script', cursive;
 
 }
 .icon {
@@ -85,7 +87,7 @@ body {
 
 .icon img {
 	position: relative;
-	top: 400px;
+	top: 300px;
 
 	width: 20px;
 	height: 20px;
@@ -109,11 +111,14 @@ body {
 }
 
 .aboutmemepic {
-  	border-radius: 25px;
-  	background: url("images/profilePicture.jpg");
-  	background-position: left top;
-  	background-repeat: repeat;
-  	padding: 20px;
-  	width: 200px;
-  	height: 150px;
+  	border-radius: 50%;
+
+  	transform: translateX(1500%);
+
+  	width: 20px;
+  	height: 50px;
 }
+
+
+	
+
