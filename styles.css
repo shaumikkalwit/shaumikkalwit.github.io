@@ -113,10 +113,12 @@ body {
 .aboutmemepic {
   	border-radius: 50%;
 
-  	transform: translateX(1500%);
+  	transform: translateX(85%);
 
-  	width: 20px;
-  	height: 50px;
+  	margin-top: -280px; 
+
+  	width: 450px;
+  	height: 450px;
 }
 
 
