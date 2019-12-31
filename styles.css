@@ -100,7 +100,7 @@ body {
 /* ABOUT PAGE ONLY */
 
 .other-titles {
-	text-align: center;
+	margin-left: 675px;
 
 	font-size: 25px;
 
@@ -110,26 +110,26 @@ body {
 .aboutmemepic1 {
   	border-radius: 50%;
 
-  	transform: translateX(480%);
+  	margin-left: 830px;
 
-  	margin-top: -30px;	 
+  	transform: translateY(-120%);
 
-  	width: 150px;
-  	height: 150px;
+  	width: 125px;
+  	height: 125px;
 }
 
 .aboutme-subhead1 {
 	transform: translateX(16%);
 
 	position: relative;
-	top: -100px;
+	top: -150px;
 }
 
 .aboutme-subheadtext1 {
 	transform: translateX(2%);
 
 	position: relative;
-	top: -65px;
+	top: -135px;
 
 	font-size: 21px;	
 }
@@ -137,14 +137,14 @@ body {
 	transform: translateX(72%);
 
 	position: relative;
-	top: -350px;
+	top: -400px;
 }
 
 .aboutme-subheadtext2 {
 	transform: translateX(56%);
 
 	position: relative;
-	top: -310px;
+	top: -380px;
 
 	font-size: 21px;
 }
@@ -154,7 +154,7 @@ body {
 	transform: translateX(150%);
 
 	position: relative;
-	top: -265px;
+	top: -310px;
 
 	width: 400px;
 	height: 250px;
@@ -163,12 +163,12 @@ body {
 
 .aboutmemepic2text {
 	position: relative;
-	top: -375px;
+	top: -420px;
 
 	display: flex;
 	justify-content: flex-end;	
 
-	margin-right: 220px;
+	margin-right: 210px;
 }
 	
 
