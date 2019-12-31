@@ -4,7 +4,8 @@ html {
 	width: 100%;
 	overflow: hidden;
 	overflow-x: hidden;
-	
+	overflow-y: hidden;
+
 	top: 0;	
 	left: 0;
 	bottom: 0;
@@ -15,6 +16,7 @@ body {
 	height: 100%;
 	overflow: auto;
 	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 #header-links {
@@ -108,34 +110,34 @@ body {
 .aboutmemepic1 {
   	border-radius: 50%;
 
-  	transform: translateX(80%);
+  	transform: translateX(145%);
 
   	margin-top: -24px; 
 
-  	width: 400px;
-  	height: 400px;
+  	width: 300px;
+  	height: 300px;
 }
 
 .aboutmemepic1text {
-	transform: translateY(-300%);
+	transform: translateY(-250%);
 
 	font-size: 28px;
 
-	margin-left: 200px;	
+	margin-left: 300px;	
 }
 
 .aboutme-subhead1 {
 	transform: translateX(65%);
 
 	position: relative;
-	top: -540px;
+	top: -450px;
 }
 
 .aboutme-subheadtext1 {
 	transform: translateX(52%);
 
 	position: relative;
-	top: -530px;
+	top: -450px;
 
 	font-size: 21px;	
 }
@@ -143,25 +145,38 @@ body {
 	transform: translateX(28%);
 
 	position: relative;
-	top: -370px;
+	top: -330px;
 }
 
 .aboutme-subheadtext2 {
 	transform: translateX(13.5%);
 
 	position: relative;
-	top: -370px;
+	top: -330px;
 
 	font-size: 19px;
 }
 
 .aboutmemepic2 {
 
-	transform: translateX(80%);
+	transform: translateX(205%);
 
-	width: 500px;
-	height: 200px;
+	position: relative;
+	top: -550px;
 
+	width: 400px;
+	height: 250px;
+
+}
+
+.aboutmemepic2text {
+	position: relative;
+	top: -800px;
+
+	display: flex;
+	justify-content: flex-end;	
+
+	margin-right: 13px;
 }
 	
 
