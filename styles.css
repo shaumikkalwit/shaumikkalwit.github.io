@@ -4,7 +4,6 @@ html {
 	width: 100%;
 	overflow: hidden;
 	overflow-x: hidden;
-	overflow-y: hidden;
 
 	top: 0;	
 	left: 0;
@@ -16,25 +15,29 @@ body {
 	height: 100%;
 	overflow: auto;
 	overflow-x: hidden;
-	overflow-y: hidden;
 }
 
 #header-links {
+	position: fixed;
+
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
 
 	font-family: 'Courier New', Courier, header-eleml;
+
+	margin-left: 1120px;
 }
 
 .header-eleml {
+
 	text-align: center;
 	vertical-align: middle;
 
 	border-radius: 25px;
   	border: 1px solid black;
 
-	margin-right: 20px;     
+	margin-left: 20px;     
  	margin-top: 5px;
  	margin-bottom: 5px; 
   	width: 90px;
