@@ -51,7 +51,7 @@ body {
 
 	text-decoration: none; 
 
-	color: black;
+	color: black;	
 }
 
 /* HOME PAGE ONLY */
@@ -107,7 +107,7 @@ body {
 
 	font-size: 25px;
 
-	transform: translateY(-5%);
+	transform: translateY(40%);
 }
 
 .aboutmemepic1 {
@@ -115,24 +115,24 @@ body {
 
   	margin-left: 830px;
 
-  	transform: translateY(-120%);
+  	transform: translateY(-80%);
 
   	width: 125px;
   	height: 125px;
 }
 
 .aboutme-subhead1 {
-	transform: translateX(16%);
+	transform: translateX(45%);
 
 	position: relative;
-	top: -150px;
+	top: -80px;
 }
 
 .aboutme-subheadtext1 {
-	transform: translateX(2%);
+	transform: translateX(25%);
 
 	position: relative;
-	top: -135px;
+	top: -80px;
 
 	font-size: 21px;	
 }
