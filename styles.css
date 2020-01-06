@@ -137,17 +137,17 @@ body {
 	font-size: 21px;	
 }
 .aboutme-subhead2 {
-	transform: translateX(72%);
+	transform: translateX(48%);
 
 	position: relative;
-	top: -425px;
+	top: -75px;
 }
 
 .aboutme-subheadtext2 {
-	transform: translateX(56%);
+	transform: translateX(25%);
 
 	position: relative;
-	top: -406px;
+	top: -75px;
 
 	font-size: 21px;
 }
