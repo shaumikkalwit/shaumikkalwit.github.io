@@ -173,5 +173,15 @@ body {
 
 	margin-right: 210px;
 }
+
+.arrow-pointing-downwards {
+	transform: translateX(2320%);
+
+	position: relative;
+	top: -140px;
+
+	width: 35px;
+	height: 35px;
+}
 	
 
