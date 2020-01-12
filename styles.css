@@ -103,7 +103,7 @@ body {
 /* ABOUT PAGE ONLY */
 
 .other-titles {
-	margin-left: 675px;
+	margin-left: 650px;
 
 	font-size: 25px;
 
@@ -113,7 +113,7 @@ body {
 .aboutmemepic1 {
   	border-radius: 50%;
 
-  	margin-left: 830px;
+  	margin-left: 818px;
 
   	transform: translateY(-80%);
 
@@ -122,14 +122,14 @@ body {
 }
 
 .aboutme-subhead1 {
-	transform: translateX(45%);
+	text-align: center;
 
 	position: relative;
 	top: -80px;
 }
 
 .aboutme-subheadtext1 {
-	transform: translateX(25%);
+	text-align: center;
 
 	position: relative;
 	top: -80px;
@@ -137,14 +137,14 @@ body {
 	font-size: 21px;	
 }
 .aboutme-subhead2 {
-	transform: translateX(48%);
+	text-align: center;
 
 	position: relative;
 	top: -75px;
 }
 
 .aboutme-subheadtext2 {
-	transform: translateX(25%);
+	text-align: center;
 
 	position: relative;
 	top: -75px;
@@ -152,36 +152,29 @@ body {
 	font-size: 21px;
 }
 
+.arrow-pointing-downwards {
+	transform: translateX(2225%);
+
+	position: relative;
+	top: -20px;
+
+	width: 35px;
+	height: 35px;
+}
+
+/* ABOUT SCREEN 2 */
+.aboutmepage2-title {
+	text-align: center;
+}
+
 .aboutmemepic2 {
 
 	transform: translateX(150%);
 
 	position: relative;
-	top: -310px;
+	top: 100px;
 
-	width: 400px;
-	height: 250px;
+	width: 300px;
+	height: 200px;
 
 }
-
-.aboutmemepic2text {
-	position: relative;
-	top: -420px;
-
-	display: flex;
-	justify-content: flex-end;	
-
-	margin-right: 210px;
-}
-
-.arrow-pointing-downwards {
-	transform: translateX(2320%);
-
-	position: relative;
-	top: -120px;
-
-	width: 35px;
-	height: 35px;
-}
-	
-
