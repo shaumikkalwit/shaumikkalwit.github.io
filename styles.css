@@ -51,7 +51,7 @@ body {
 
 	text-decoration: none; 
 
-	color: black;	
+	color: black;
 }
 
 /* HOME PAGE ONLY */
@@ -169,7 +169,7 @@ body {
 
 .aboutmemepic2 {
 
-	transform: translateX(150%);
+	transform: translateX(115%);
 
 	position: relative;
 	top: 100px;
@@ -177,4 +177,11 @@ body {
 	width: 300px;
 	height: 200px;
 
+}
+
+.aboutmepic2-text {
+	transform: translateX(26%);
+
+	position: relative;
+	top: 90px;	
 }
