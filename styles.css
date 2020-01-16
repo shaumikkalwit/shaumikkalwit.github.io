@@ -175,7 +175,7 @@ body {
 	top: 100px;
 
 	width: 300px;
-	height: 200px;
+	height: 250px;
 
 }
 
@@ -183,5 +183,16 @@ body {
 	transform: translateX(26.3%);
 
 	position: relative;
-	top: 90px;	
+	top: 85px;	
+}
+
+.aboutmemepic3 {
+	transform: translateX(217%);
+
+	position: relative;
+	top: -204px;
+
+	width: 300px;
+	height: 250px;
+
 }
