@@ -194,5 +194,11 @@ body {
 
 	width: 300px;
 	height: 250px;
+}
 
+.aboutmemepic3-text {
+	text-align: center;
+
+	position: relative;
+	top: -218px;	
 }
