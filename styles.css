@@ -169,18 +169,18 @@ body {
 
 .aboutmemepic2 {
 
-	transform: translateX(115%);
+	transform: translateX(60%);
 
 	position: relative;
 	top: 100px;
 
-	width: 300px;
+	width: 400px;
 	height: 250px;
 
 }
 
 .aboutmepic2-text {
-	transform: translateX(26.3%);
+	transform: translateX(23%);
 
 	position: relative;
 	top: 85px;	
@@ -197,6 +197,23 @@ body {
 }
 
 .aboutmemepic3-text {
+	text-align: center;
+
+	position: relative;
+	top: -218px;	
+}
+
+.aboutmemepic4 {
+	transform: translateX(217%);
+
+	position: relative;
+	top: -204px;
+
+	width: 300px;
+	height: 275px;
+}
+
+.aboutmemepic4-text {
 	text-align: center;
 
 	position: relative;
