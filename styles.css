@@ -175,7 +175,7 @@ body {
 	transform: translateX(60%);
 
 	position: relative;
-	top: 100px;
+	top: 69px;
 
 	width: 400px;
 	height: 250px;
@@ -186,8 +186,15 @@ body {
 	transform: translateX(23%);
 
 	position: relative;
-	top: 85px;	
+	top: 70px;	
 }
+
+.aboutmepic2-text a {
+	text-decoration: none;
+
+	color: black;
+}
+
 
 .aboutmemepic3 {
 	transform: translateX(217%);
