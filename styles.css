@@ -210,7 +210,13 @@ body {
 	text-align: center;
 
 	position: relative;
-	top: -218px;	
+	top: -205px;	
+}
+
+.aboutmemepic3-text a {
+	text-decoration: none;
+
+	color: black;
 }
 
 .aboutmemepic4 {
