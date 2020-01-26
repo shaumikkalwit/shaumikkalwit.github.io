@@ -175,7 +175,7 @@ body {
 
 .aboutmemepic2 {
 
-	transform: translateX(60%);
+	transform: translateX(58%);
 
 	position: relative;
 	top: 38px;
@@ -186,7 +186,7 @@ body {
 }
 
 .aboutmepic2-text {
-	transform: translateX(23%);
+	transform: translateX(22%);
 
 	position: relative;
 	top: 38px;	
@@ -200,7 +200,7 @@ body {
 
 
 .aboutmemepic3 {
-	transform: translateX(217%);
+	transform: translateX(215%);
 
 	position: relative;
 	top: -234px;
@@ -223,7 +223,7 @@ body {
 }
 
 .aboutmemepic4 {
-	transform: translateX(217%);
+	transform: translateX(215%);
 
 	position: relative;
 	top: -213px;
