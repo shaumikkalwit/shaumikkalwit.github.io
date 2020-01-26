@@ -153,6 +153,9 @@ body {
 }
 
 .arrow-link img{
+	position: relative;
+	top: -70px;
+
 	transform: translateX(2250%);
 
 	width: 35px;
@@ -223,7 +226,7 @@ body {
 	transform: translateX(217%);
 
 	position: relative;
-	top: -204px;
+	top: -194px;
 
 	width: 300px;
 	height: 300px;
@@ -233,5 +236,5 @@ body {
 	text-align: center;
 
 	position: relative;
-	top: -218px;	
+	top: -210px;	
 }
