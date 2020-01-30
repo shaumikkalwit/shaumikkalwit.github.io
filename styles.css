@@ -89,12 +89,12 @@ body {
 
 .icon img {
 	position: relative;
-	top: 380px;
+	top: 100px;
 
 	width: 22px;
 	height: 22px;
 
-	transform: translateX(3450%);
+	transform: translateX(3430%);
 
 	margin-left: 15px;
 	margin-right: 17px;
