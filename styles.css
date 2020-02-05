@@ -91,13 +91,16 @@ body {
 	position: relative;
 	top: 100px;
 
-	width: 27px;
-	height: 27px;
+	width: 26.5px;
+	height: 26.5px;
 
-	transform: translateX(3400%);
+	transform: translateX(2825%);
 
 	margin-left: 15px;
 	margin-right: 17px;
+
+	/* Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> */
+
 }
 
 /* ABOUT PAGE ONLY */
