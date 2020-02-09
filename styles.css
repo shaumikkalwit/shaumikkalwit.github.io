@@ -101,17 +101,17 @@ body {
 
 	/* Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> */
 	/*<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */
-	
+	/*Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> */
 }
 
 /* ABOUT PAGE ONLY */
 
-.other-titles {
+.other-titlesa {
 	margin-left: 650px;
 
 	font-size: 25px;
 
-	transform: translateY(40%);
+	transform: translateY(0%);
 }
 
 .aboutmemepic1 {
@@ -119,7 +119,7 @@ body {
 
   	margin-left: 818px;
 
-  	transform: translateY(-80%);
+  	transform: translateY(-120%);
 
   	width: 125px;
   	height: 125px;
@@ -129,14 +129,14 @@ body {
 	text-align: center;
 
 	position: relative;
-	top: -80px;
+	top: -130px;
 }
 
 .aboutme-subheadtext1 {
 	text-align: center;
 
 	position: relative;
-	top: -80px;
+	top: -130px;
 
 	font-size: 21px;	
 }
@@ -144,21 +144,21 @@ body {
 	text-align: center;
 
 	position: relative;
-	top: -75px;
+	top: -110px;
 }
 
 .aboutme-subheadtext2 {
 	text-align: center;
 
 	position: relative;
-	top: -75px;
+	top: -110px;
 
 	font-size: 21px;
 }
 
 .arrow-link img{
 	position: relative;
-	top: -30px;
+	top: -50px;
 
 	transform: translateX(2250%);
 
@@ -247,4 +247,12 @@ body {
 	text-decoration: none;
 
 	color: black;	
+}
+
+/* PROJECT PAGE ONLY */
+
+.other-titles {
+	text-align: center;
+
+	font-size: 25px;
 }
