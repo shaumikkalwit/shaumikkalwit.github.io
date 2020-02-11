@@ -15,8 +15,8 @@ body {
 	height: 100%;
 	overflow: auto;
 	overflow-x: hidden;
-}
 
+}
 #header-links {
 	position: fixed;
 
@@ -105,7 +105,6 @@ body {
 }
 
 /* ABOUT PAGE ONLY */
-
 .other-titlesa {
 	margin-left: 650px;
 
@@ -173,7 +172,7 @@ body {
  }
 
 /* ABOUT SCREEN 2 */
-.aboutmepage2-title {
+#aboutmepage2-title {
 	text-align: center;
 }
 
