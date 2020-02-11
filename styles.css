@@ -172,8 +172,17 @@ body {
  }
 
 /* ABOUT SCREEN 2 */
-#aboutmepage2-title {
+#arrow-link-cover {
 	text-align: center;
+
+	transform: translateY(40%);
+
+	color: white;
+}
+
+.aboutmepage2-title {
+	text-align: center;
+	font-size: 18px;
 }
 
 .aboutmemepic2 {
