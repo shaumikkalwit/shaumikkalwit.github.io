@@ -45,7 +45,7 @@ body {
 }
 
 .header-eleml a {
-	font-size: 15px;
+	font-size: 13.5px;
 
 	line-height: 33px;
 
@@ -160,14 +160,14 @@ body {
 	font-size: 12px;
 
 	position: relative;
-	top: -40px;
+	top: 0px;
 
 	font-family: 'Courier New', Courier, header-eleml;
 }
 
 .arrow-link img{
 	position: relative;
-	top: -40px;
+	top: -70px;
 
 	transform: translateX(2225%);
 
