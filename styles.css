@@ -1,4 +1,6 @@
 
+@import "compass/css3";
+
 html {
 	height: 100%;
 	width: 100%;
@@ -271,4 +273,21 @@ body {
 	text-align: center;
 
 	font-size: 25px;
+}
+
+/* CONTACTS PAGE ONLY */
+.contacts-text li {
+	list-style-type: none;
+
+	text-align: center;
+
+	font-size: 20px;
+}
+
+.contactpage-bottomtext li {
+	list-style-type: none;
+
+	text-align: center;
+
+	font-size: 20px;
 }
