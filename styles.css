@@ -291,3 +291,39 @@ body {
 
 	font-size: 20px;
 }
+
+.icona {
+	display: flex;
+	direction: row;
+}
+
+.icon-elema {
+
+	display: flex;
+	flex-direction: row;
+	text-align: center;	
+
+	font-size: 17px;
+}
+
+.icona a {
+	text-decoration: none;
+
+	text-align: center;
+}
+
+.icona img {
+	position: relative;
+	top: 15px;
+
+	width: 26.5px;
+	height: 26.5px;
+
+	transform: translateX(2700%);
+
+	margin-left: 15px;
+	margin-right: 17px;
+
+	/* Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> */
+	/*<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */
+	/*Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> */
