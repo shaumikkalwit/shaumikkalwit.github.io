@@ -1,6 +1,3 @@
-
-@import "compass/css3";
-
 html {
 	height: 100%;
 	width: 100%;
@@ -107,12 +104,20 @@ body {
 }
 
 /* ABOUT PAGE ONLY */
+
+.screen-1 {
+	scroll-snap-type: y manndatory;
+	overflow-y: scroll;
+}
+
 .other-titlesa {
+	scroll-snap-align: start;
+
 	margin-left: 650px;
 
-	font-size: 25px;
+	font-size: 30px;
 
-	transform: translateY(14%);
+	transform: translateY(13.5%);
 }
 
 .aboutmemepic1 {
@@ -193,8 +198,10 @@ body {
 }
 
 .aboutmepage2-title {
+	scroll-snap-align: start;
+
 	text-align: center;
-	font-size: 18px;
+	font-size: 23px;
 }
 
 .aboutmemepic2 {
@@ -327,3 +334,4 @@ body {
 	/* Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> */
 	/*<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */
 	/*Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> */
+}
