@@ -44,7 +44,7 @@ body {
 }
 
 .header-eleml a {
-	font-size: 13.5px;
+	font-size: 12px;
 
 	line-height: 33px;
 
@@ -106,7 +106,7 @@ body {
 /* ABOUT PAGE ONLY */
 
 .screen-1 {
-	scroll-snap-type: y manndatory;
+	scroll-behavior: smooth;
 	overflow-y: scroll;
 }
 
@@ -176,7 +176,7 @@ body {
 	position: relative;
 	top: -70px;
 
-	transform: translateX(2225%);
+	transform: translateX(2200%);
 
 	width: 35px;
 	height: 35px;
@@ -277,7 +277,7 @@ body {
 }
 
 .other-titles {
-	text-align: center;
+	transform: translateX(45%);
 
 	font-size: 25px;
 }
@@ -326,7 +326,7 @@ body {
 	width: 26.5px;
 	height: 26.5px;
 
-	transform: translateX(2700%);
+	transform: translateX(2775%);
 
 	margin-left: 15px;
 	margin-right: 17px;
@@ -335,3 +335,4 @@ body {
 	/*<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */
 	/*Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> */
 }
+
