@@ -116,12 +116,12 @@ body {
 .aboutmemepic1 {
   	border-radius: 50%;
 
-  	margin-left: 818px;
+  	margin-left: 815px;
 
-  	transform: translateY(-108%);
+  	transform: translateY(-100%);
 
-  	width: 125px;
-  	height: 125px;
+  	width: 140px;
+  	height: 140px;
 }
 
 .aboutme-subhead1 {
@@ -160,14 +160,14 @@ body {
 	font-size: 12px;
 
 	position: relative;
-	top: 75px;
+	top: 50px;
 
 	font-family: 'Courier New', Courier, header-eleml;
 }
 
 .arrow-link img{
 	position: relative;
-	top: 8px;
+	top: -20px;
 
 	transform: translateX(2210%);
 
