@@ -104,14 +104,7 @@ body {
 }
 
 /* ABOUT PAGE ONLY */
-
-.screen-1 {
-	scroll-behavior: smooth;
-	overflow-y: scroll;
-}
-
 .other-titlesa {
-	scroll-snap-align: start;
 
 	margin-left: 650px;
 
@@ -157,7 +150,7 @@ body {
 	text-align: center;
 
 	position: relative;
-	top: -110px;
+	top: -90px;
 
 	font-size: 21px;
 }
@@ -167,16 +160,16 @@ body {
 	font-size: 12px;
 
 	position: relative;
-	top: 0px;
+	top: 75px;
 
 	font-family: 'Courier New', Courier, header-eleml;
 }
 
 .arrow-link img{
 	position: relative;
-	top: -70px;
+	top: 8px;
 
-	transform: translateX(2200%);
+	transform: translateX(2210%);
 
 	width: 35px;
 	height: 35px;
@@ -198,8 +191,6 @@ body {
 }
 
 .aboutmepage2-title {
-	scroll-snap-align: start;
-
 	text-align: center;
 	font-size: 23px;
 }
