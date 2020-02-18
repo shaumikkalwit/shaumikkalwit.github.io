@@ -277,9 +277,42 @@ body {
 .contacts-text li {
 	list-style-type: none;
 
-	text-align: center;
+	transform: translateX(41%);
 
 	font-size: 20px;
+}
+
+.contacts-text li b {
+	margin-left: 96px;
+}
+
+
+
+.insta-text li {
+	list-style-type: none;
+
+	transform: translateX(45.5%);
+
+	font-size: 20px;
+}
+
+.github-text li {
+	list-style-type: none;
+
+	transform: translateX(41%);
+
+	font-size: 20px;
+}
+
+.github-text li b {
+	margin-left: 110px;
+}
+
+
+
+
+.insta-text li b {
+	margin-left: 30px;
 }
 
 .contactpage-bottomtext li {
@@ -339,8 +372,6 @@ body {
 
 .projects-title li {
 	list-style-type: none;
-
-	width: 80%;
 
 	margin-left: 340px; 
 
