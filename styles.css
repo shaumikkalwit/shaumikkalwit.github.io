@@ -108,9 +108,9 @@ body {
 
 	margin-left: 650px;
 
-	font-size: 30px;
+	font-size: 25px;
 
-	transform: translateY(38%);
+	transform: translateY(29%);
 }
 
 .aboutmemepic1 {
@@ -118,7 +118,7 @@ body {
 
   	margin-left: 815px;
 
-  	transform: translateY(-85%);
+  	transform: translateY(-90%);
 
   	width: 140px;
   	height: 140px;
@@ -192,7 +192,7 @@ body {
 
 .aboutmepage2-title {
 	text-align: center;
-	font-size: 23px;
+	font-size: 20px;
 }
 
 .aboutmemepic2 {
@@ -200,7 +200,7 @@ body {
 	transform: translateX(58%);
 
 	position: relative;
-	top: 38px;
+	top: 25px;
 
 	width: 400px;
 	height: 250px;
@@ -211,7 +211,7 @@ body {
 	transform: translateX(22%);
 
 	position: relative;
-	top: 38px;	
+	top: 25px;	
 }
 
 .aboutmepic2-text a {
@@ -225,7 +225,7 @@ body {
 	transform: translateX(215%);
 
 	position: relative;
-	top: -234px;
+	top: -246px;
 
 	width: 300px;
 	height: 250px;
@@ -235,7 +235,7 @@ body {
 	text-align: center;
 
 	position: relative;
-	top: -232px;	
+	top: -245px;	
 }
 
 .aboutmemepic3-text a {
@@ -248,7 +248,7 @@ body {
 	transform: translateX(215%);
 
 	position: relative;
-	top: -213px;
+	top: -225px;
 
 	width: 300px;
 	height: 320px;
@@ -258,7 +258,7 @@ body {
 	text-align: center;
 
 	position: relative;
-	top: -212px;	
+	top: -225px;	
 }
 
 .aboutmemepic4-text a {
@@ -322,7 +322,7 @@ body {
 
 	font-size: 20px;
 
-	transform: translateY(-70%);
+	transform: translateY(-90%);
 }
 
 .icona {
@@ -347,7 +347,7 @@ body {
 
 .icona img {
 	position: relative;
-	top: -1px;
+	top: 370px;
 
 	width: 22px;
 	height: 22px;
