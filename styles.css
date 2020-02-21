@@ -207,17 +207,17 @@ body {
 
 }
 
-.aboutmepic2-text {
+.aboutmemepic2-text {
 	transform: translateX(22%);
 
 	position: relative;
 	top: 25px;	
 }
 
-.aboutmepic2-text a {
+.aboutmemepic2-text a {
 	text-decoration: none;
 
-	color: black;
+	color: black;	
 }
 
 
