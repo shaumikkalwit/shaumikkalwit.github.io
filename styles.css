@@ -270,12 +270,18 @@ body {
 
 /* CONTACTS PAGE ONLY */
 .other-titles {
+	position: relative;
+	top: -25px;
+
 	transform: translateX(45%);
 
 	font-size: 25px;
 }
 
 .contacts-text li {
+	position: relative;
+	top: -25px;
+
 	list-style-type: none;
 
 	transform: translateX(41%);
@@ -284,12 +290,16 @@ body {
 }
 
 .contacts-text li b {
+
 	margin-left: 96px;
 }
 
 
 
 .insta-text li {
+	position: relative;
+	top: -15px;
+
 	list-style-type: none;
 
 	transform: translateX(45.5%);
@@ -297,23 +307,24 @@ body {
 	font-size: 20px;
 }
 
+.insta-text li b {
+	margin-left: 30px;
+}
+
 .github-text li {
+	position: relative;
+	top: -20px;
+
 	list-style-type: none;
 
-	transform: translateX(41%);
+	transform: translateX(38%);
 
 	font-size: 20px;
 }
 
 .github-text li b {
+
 	margin-left: 110px;
-}
-
-
-
-
-.insta-text li b {
-	margin-left: 30px;
 }
 
 .contactpage-bottomtext li {
@@ -323,7 +334,7 @@ body {
 
 	font-size: 20px;
 
-	transform: translateY(-90%);
+	transform: translateY(-115%);
 }
 
 .icona {
@@ -348,7 +359,7 @@ body {
 
 .icona img {
 	position: relative;
-	top: 370px;
+	top: 330px;
 
 	width: 22px;
 	height: 22px;
