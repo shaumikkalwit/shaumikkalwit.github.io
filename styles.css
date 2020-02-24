@@ -110,7 +110,7 @@ body {
 
 	font-size: 25px;
 
-	transform: translateY(23%);
+	transform: translateY(-10%);
 }
 
 .aboutmemepic1 {
@@ -118,7 +118,7 @@ body {
 
   	margin-left: 815px;
 
-  	transform: translateY(-95%);
+  	transform: translateY(-120%);
 
   	width: 140px;
   	height: 140px;
@@ -128,14 +128,14 @@ body {
 	text-align: center;
 
 	position: relative;
-	top: -105px;
+	top: -145px;
 }
 
 .aboutme-subheadtext1 {
 	text-align: center;
 
 	position: relative;
-	top: -95px;
+	top: -135px;
 
 	font-size: 21px;	
 }
@@ -143,14 +143,14 @@ body {
 	text-align: center;
 
 	position: relative;
-	top: -60px;
+	top: -90px;
 }
 
 .aboutme-subheadtext2 {
 	text-align: center;
 
 	position: relative;
-	top: -50px;
+	top: -80px;
 
 	font-size: 21px;
 }
@@ -160,14 +160,14 @@ body {
 	font-size: 12px;
 
 	position: relative;
-	top: 50px;
+	top: 30px;
 
 	font-family: 'Courier New', Courier, header-eleml;
 }
 
 .arrow-link img{
 	position: relative;
-	top: -20px;
+	top: -35px;
 
 	transform: translateX(2210%);
 
