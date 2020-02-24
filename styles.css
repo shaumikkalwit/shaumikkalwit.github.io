@@ -267,13 +267,14 @@ body {
 	color: black;	
 }
 
+
+/* CONTACTS PAGE ONLY */
 .other-titles {
 	transform: translateX(45%);
 
 	font-size: 25px;
 }
 
-/* CONTACTS PAGE ONLY */
 .contacts-text li {
 	list-style-type: none;
 
@@ -365,12 +366,18 @@ body {
 /* PROJECTS PAGE ONLY */
 
 .other-titlesp {
+	position: relative;
+	top: -25px;
+
 	text-align: center;
 
 	font-size: 25px;
 }
 
 .projects-title li {
+	position: relative;
+	top: -25px;
+
 	list-style-type: none;
 
 	margin-left: 340px; 
@@ -379,5 +386,8 @@ body {
 }
 
 .projects-title li b {
+	position: relative;
+	top: -0px;
+
 	margin-left: 305px;
 }
