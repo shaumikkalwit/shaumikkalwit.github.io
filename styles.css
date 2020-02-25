@@ -273,7 +273,7 @@ body {
 	position: relative;
 	top: -25px;
 
-	transform: translateX(45%);
+	transform: translateX(42.5%);
 
 	font-size: 25px;
 }
@@ -284,7 +284,7 @@ body {
 
 	list-style-type: none;
 
-	transform: translateX(41%);
+	transform: translateX(38%);
 
 	font-size: 20px;
 }
@@ -302,7 +302,7 @@ body {
 
 	list-style-type: none;
 
-	transform: translateX(45.5%);
+	transform: translateX(42%);
 
 	font-size: 20px;
 }
@@ -364,7 +364,7 @@ body {
 	width: 22px;
 	height: 22px;
 
-	transform: translateX(3375%);
+	transform: translateX(3250%);
 
 	margin-left: 15px;
 	margin-right: 17px;
