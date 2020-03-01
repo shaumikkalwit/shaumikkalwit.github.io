@@ -17,7 +17,6 @@ body {
 
 }
 #header-links {
-
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
@@ -110,7 +109,7 @@ body {
 
 	font-size: 25px;
 
-	transform: translateY(-10%);
+	transform: translateY(10%);
 }
 
 .aboutmemepic1 {
@@ -118,7 +117,7 @@ body {
 
   	margin-left: 815px;
 
-  	transform: translateY(-120%);
+  	transform: translateY(-100%);
 
   	width: 140px;
   	height: 140px;
