@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shaumik Kalwit - Projects</title>
+	<link href="styles.css" type="text/css"
+	  rel="stylesheet" />
+</head>
+<body> 
+	<header>
+		<div id="header-links">
+			<div class="header-eleml"> 
+				<a href="index.html">home</a> 
+			</div>
+
+			<div class="header-eleml"> 
+				<a href="about.html">about</a>
+	 		</div>
+
+			<div class="header-eleml"> 
+				<a href="projects.html">projects</a> 
+			</div>
+
+			<div class="header-eleml">
+				<a href="contacts.html">contacts</a> 
+			</div>
+		</div>
+	</header>
+
+	<div class="other-titlesp">
+		<h1> Projects </h1>
+	</div>
+
+	<div class="projects-title">
+		<ul>
+			<li><b> Exchange Rate Calculator</b></li>
+			<li> An Exchange Rate Calculator that calculates the difference between two currency and foreign exchange rates.</li> 
+		</ul>
+	</div>
+
+</body>
+</html>

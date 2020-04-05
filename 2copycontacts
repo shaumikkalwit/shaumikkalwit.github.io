@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shaumik Kalwit - Contacts</title>
+	<link href="styles.css" type="text/css"
+	  rel="stylesheet" />
+</head>
+<body> 
+	<header>
+		<div id="header-links">
+			<div class="header-eleml"> 
+				<a href="index.html">home</a> 
+			</div>
+
+			<div class="header-eleml"> 
+				<a href="about.html">about</a>
+	 		</div>
+
+			<div class="header-eleml"> 
+				<a href="projects.html">projects</a> 
+			</div>
+
+			<div class="header-eleml">
+				<a href="contacts.html">contacts</a> 
+			</div>
+		</div>
+	</header>	
+
+	<div class="other-titles">
+		<h1>Contacts</h1>
+	</div>
+
+		<div class="contacts-text">
+			<ul>		  
+			  <li><b>Email Me:</b></li>
+			  <li>skdeveloper.business@gmail.com</li>
+			</ul>
+		</div>
+			  
+		<div class="github-text">
+			<ul>
+			  <li><b>Github:</b></li>
+		      <li>https://github.com/shaumikkalwit</li>
+			</ul>
+		</div>
+
+		<div class="insta-text">
+			<ul>
+			  <li><b>Instagram:</b></li>
+			  <li>@shaumik.kalwit</li>
+			  <br>
+			</ul>
+		</div>
+
+
+		<div class="contactpage-bottomtext">
+			<li><br>Feel free to contact me by any of these options if you have a question or a suggestion. They are ranked by the most likely platform of where I will respond from best to worst option.<br></li>
+			</ul>
+		</div>
+
+	<div class="icona">
+		<div class="icon-elema">
+			<a href="https://www.instagram.com/shaumik.kalwit/"><img src="images/instagram (1).png"></a> 
+		</div>
+		<div class="icon-elema">
+			<a href="https://github.com/shaumikkalwit"><img src="images/github-image.png"></a> 
+		</div>		
+		<div class="icon-elema">
+			<a href="https://www.facebook.com/shaumik.kalwit"><img src="images/facebook.png"></a>
+		</div>
+	</div>
+
+</body>
+</html>

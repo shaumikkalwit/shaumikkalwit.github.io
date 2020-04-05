@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shaumik Kalwit - About Me</title>
+	<link href="styles.css" type="text/css"
+	  rel="stylesheet" />
+</head>
+<body> 
+	<header>
+		<div id="header-links">
+			<div class="header-eleml"> 
+				<a href="index.html">home</a> 
+			</div>
+
+			<div class="header-eleml"> 
+				<a href="about.html">about</a>
+	 		</div>
+
+			<div class="header-eleml"> 
+				<a href="projects.html">projects</a> 
+			</div>
+
+			<div class="header-eleml">
+				<a href="contacts.html">contacts</a> 
+			</div>
+		</div>
+	</header>
+
+		<div class="screen-1">
+
+			<div class="other-titlesa">
+				<h1> About <br> Me! </h1>
+			</div>
+
+			<img src="images/profilePicture3.jpeg" alt="pic" class="aboutmemepic1">
+
+			<div class="aboutme-subhead1">
+				<h2> Fun Facts About Me </h2>
+			</div>
+
+			<div class="aboutme-subheadtext1">
+				<p> Hi! My name is Shaumik Kalwit! I am in Middle School and I live in the Bay Area in California. <br> I enjoy spending times with friends and family. In my free time, I might choose to do programming, <br> I might read a book, or I might also study. I love watching anime and reading manga. A few of my hobbies are <br>playing basketball,  volleyball, or football in my free time. I am also in my school's <br> Advanced Choir and we have been all over the country. One of them being Carnegie Hall in New York. I love <br> travelling and visiting new places. I am in my school's FBLA Club as well since I find learning about business fun.</p>
+			</div>
+
+			<div class="aboutme-subhead2">
+				<h2> My Interests </h2>
+			</div>
+
+			<div class="aboutme-subheadtext2">
+				<p> I am trying to learn multiple things like Programming. At this moment I am learning Python, Html, CSS, as well as <br> JavaScript. I am also trying to learn multiple things about business. Specifically the stock market, etc.</p>
+			</div>
+
+			<div class="arrowlink-text">
+				<p><b> Swipe or Click for More<b></p>
+			</div>
+
+			<div class="arrow-link">
+				<a href="#arrow-link-cover"><img src="images/arrow-pointing-downwards.png"></a> 
+			</div>	
+
+		</div>	
+
+		<div class="screen-2">
+
+			<div id="arrow-link-cover">
+				<h1> HI! </h1>
+			</div>
+
+			<div class="aboutmepage2-title">
+				<h1> Places I Have Travelled!</h1>
+			</div>
+
+			<img src="images/aboutmepicture.jpg" alt="carnegiepic"class="aboutmemepic2">
+			<div class="aboutmemepic2-text">
+				<a href="https://www.carnegiehall.org/">Carnegie Hall, New York</a>
+			</div>
+
+			<img src="images/aboutmepicturenyskyline.jpg" alt="skyline" class="aboutmemepic3">
+			<div class="aboutmemepic3-text">
+				<a href="https://www.google.com/maps/place/Manhattan,+New+York,+NY/@40.7591704,-74.039271,12z/data=!3m1!4b1!4m5!3m4!1s0x89c2588f046ee661:0xa0b3281fcecc08c!8m2!3d40.7830603!4d-73.9712488">Manhattan, New York</a>
+			</div>
+
+			<img src="images/aboutmepictureglendale.jpg" alt="skyline" class="aboutmemepic4">
+			<div class="aboutmemepic4-text">
+				<a href="https://www.google.com/maps/place/Glendale,+AZ/@33.6031266,-112.3764917,12z/data=!3m1!4b1!4m5!3m4!1s0x872b23272d679d37:0x9f14430b838d3b54!8m2!3d33.5386523!4d-112.1859866">Glendale, Arizona</a>
+			</div>
+
+		</div>
+
+</body>
+</html>
