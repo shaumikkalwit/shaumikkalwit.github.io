@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav } from 'react-bootstrap';
+import Flexbox from './components/Flexbox';
+import HomeTitle from './components/HomeTitle';
 
 function App() {
   return (
@@ -17,6 +19,11 @@ function App() {
         </Nav>
         </Navbar.Collapse>
       </Navbar>
+
+
+      <Flexbox>
+        <HomeTitle>Shaumik<br></br>Kalwit</HomeTitle>
+      </Flexbox>
     </div>
   );
 }
