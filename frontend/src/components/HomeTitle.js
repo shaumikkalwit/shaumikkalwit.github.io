@@ -7,6 +7,8 @@ const HomeTitle = styled.h1`
 
 	font-size: 15vw;
 
+	transform: translateY(175%);
+
 `;
 
 export default HomeTitle;

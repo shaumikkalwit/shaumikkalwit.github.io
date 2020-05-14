@@ -3,7 +3,9 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import Flexbox from './components/Flexbox';
+import FirstScreen from './components/FirstScreen';
 import HomeTitle from './components/HomeTitle';
+import Scroll from './components/Scroll';
 
 function App() {
   return (
@@ -22,7 +24,12 @@ function App() {
 
 
       <Flexbox>
+       <FirstScreen>
         <HomeTitle>Shaumik<br></br>Kalwit</HomeTitle>
+
+        <Scroll>Scroll to learn more.</Scroll>
+       </FirstScreen>
+
       </Flexbox>
     </div>
   );
