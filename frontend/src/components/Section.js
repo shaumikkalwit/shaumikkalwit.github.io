@@ -6,7 +6,9 @@ const Container = styled.div`
 	height: 100vh;
 
 	padding-top: 56px;
-	
+
+	scroll-snap-align: start;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;	
