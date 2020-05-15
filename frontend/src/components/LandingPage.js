@@ -3,17 +3,20 @@ import styled from 'styled-components';
 
 const Container = styled.div`
 	width: 100vw;
+	height: 100vh;
 
 	padding-top: 56px;
 
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: center;	
 	align-items: center;
 	text-align: center;
+
+
 `;
 
-class Flexbox extends React.Component {
+class LandingPage extends React.Component {
 	render() {
 		return (
 			<Container>
@@ -23,4 +26,4 @@ class Flexbox extends React.Component {
 	}
 }
 
-export default Flexbox;
+export default LandingPage;

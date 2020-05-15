@@ -3,9 +3,10 @@ import styled from 'styled-components';
 
 const Scroll = styled.p`
 
-	color: black;
+	position: absolute;
+	bottom: 0;
 
-	transform: translateY(2100%);
+	color: black;
 
 `;
 
