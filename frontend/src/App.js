@@ -27,7 +27,8 @@ function App() {
 
       <Flexbox>
        <LandingPage>
-        <HomeTitle>Shaumik<br></br>Kalwit</HomeTitle>
+        <HomeTitle>Shaumik</HomeTitle>
+        <HomeTitle>Kalwit</HomeTitle>
 
         <Scroll>Scroll to learn more.</Scroll>
        </LandingPage>

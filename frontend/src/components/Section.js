@@ -6,10 +6,10 @@ const Container = styled.div`
 	height: 100vh;
 
 	padding-top: 56px;
-
+	
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;	
+	justify-content: space-between;	
 	align-items: center;
 	text-align: center;
 
