@@ -9,6 +9,7 @@ import HomeTitle from './components/HomeTitle';
 import Scroll from './components/Scroll';
 import AboutTitle from './components/AboutTitle';
 import AboutText from './components/AboutText';
+import Title from './components/Title';
 
 function App() {
   return (
@@ -41,6 +42,9 @@ function App() {
         I am fluent in HTML, and CSS. I also have some exposure to JavaScript and React. I use 
         these to create very nice and clean websites. I also know a bit of Python. Learn more 
         through my links!</AboutText>
+       </Section>
+       <Section>
+        <Title>Projects</Title>
        </Section>
 
       </Flexbox>

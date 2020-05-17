@@ -2,10 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
+	scroll-snap-align: start;
+
 	width: 100vw;
 	height: 100vh;
-
-	scroll-snap-align: start;
 
 	display: flex;
 	flex-direction: column;
