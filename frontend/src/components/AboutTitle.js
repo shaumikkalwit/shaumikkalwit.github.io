@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const AboutTitle = styled.h1`
 	color: black;
-	margin-top: 70px;
+	margin-top: 50px;
 	font-size: 12vw;
 `;
 
