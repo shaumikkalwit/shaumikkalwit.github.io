@@ -9,11 +9,11 @@ body {
 
 body,
 html {
-	max-width: 100%;
+	width: auto;
 	min-height: 100%;
 
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
   top: 0;
   right: 0;
   bottom: 0;
