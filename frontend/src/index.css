@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -9,11 +8,11 @@ body {
 
 body,
 html {
-	width: auto;
-	min-height: 100%;
+  max-width: 100%;
+  height: auto;
 
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
   top: 0;
   right: 0;
   bottom: 0;

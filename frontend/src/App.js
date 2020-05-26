@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import Flexbox from './components/Flexbox';
@@ -11,8 +10,9 @@ import AboutTitle from './components/AboutTitle';
 import AboutText from './components/AboutText';
 import Title from './components/Title';
 
-function App() {
-  return (
+class App extends React.Component {
+  render() {
+    return (
     <div>
       <Navbar bg="dark" variant="dark" expand="lg" position="sticky" fixed="top">
         <Navbar.Brand href="#home">Shaumik Kalwit</Navbar.Brand>
@@ -50,6 +50,8 @@ function App() {
       </Flexbox>
     </div>
   );
+  }
+  
 }
 
 export default App;
