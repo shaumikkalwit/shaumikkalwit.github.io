@@ -9,11 +9,28 @@ import Scroll from './components/Scroll';
 import AboutTitle from './components/AboutTitle';
 import AboutText from './components/AboutText';
 import Title from './components/Title';
+import AboutContactText from './components/AboutContactText';
+import ContactsSection from './components/ContactsSection';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { apiResponse: "" };
+ }
+
+  callAPI() {
+      fetch("http://localhost:9000/testAPI")
+          .then(res => res.text())
+          .then(res => this.setState({ apiResponse: res }));
+  }
+
+  componentWillMount() {
+      this.callAPI();
+  }
   render() {
     return (
     <div>
+    <p className="App-intro">;{this.state.apiResponse}</p>
       <Navbar bg="dark" variant="dark" expand="lg" position="sticky" fixed="top">
         <Navbar.Brand href="#home">Shaumik Kalwit</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -44,8 +61,17 @@ class App extends React.Component {
         through my links!</AboutText>
        </Section>
        <Section>
+
         <Title>Projects</Title>
+
        </Section>
+       <ContactsSection> 
+
+        <Title>Contacts</Title>  
+
+         <AboutContactText><ul>Email:<br></br>shaumik.kalwit@gmail.com</ul></AboutContactText>
+
+       </ContactsSection>
 
       </Flexbox>
     </div>
