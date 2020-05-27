@@ -17,7 +17,7 @@ const AboutContactText = styled.ul`
 	margin-left: 0px;
 	padding-right: 86px;
 
-	font-size: 6vw;
+	font-size: 4.5vw;
 `;
 
 export default AboutContactText;

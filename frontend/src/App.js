@@ -71,6 +71,8 @@ class App extends React.Component {
 
          <AboutContactText><ul>Email:<br></br>shaumik.kalwit@gmail.com</ul></AboutContactText>
 
+         <AboutContactText><ul>Instagram:<br></br>https://www.instagram.com/shaumikkalwit/</ul></AboutContactText>
+
        </ContactsSection>
 
       </Flexbox>
