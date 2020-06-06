@@ -11,6 +11,10 @@ import AboutText from './components/AboutText';
 import Title from './components/Title';
 import AboutContactText from './components/AboutContactText';
 import ContactsSection from './components/ContactsSection';
+import ImgLinks from './components/ImgLinks';
+import Facebook from './images/facebook (1).png';
+import Github from './images/github.png';
+
 
 class App extends React.Component {
   constructor(props) {
@@ -32,15 +36,18 @@ class App extends React.Component {
     <div>
     <p className="App-intro">;{this.state.apiResponse}</p>
       <Navbar bg="dark" variant="dark" expand="lg" position="sticky" fixed="top">
-        <Navbar.Brand href="#home">Shaumik Kalwit</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Brand href="#LandingPage">Shaumik Kalwit</Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#home">About Me</Nav.Link>
-          <Nav.Link href="#home">Projects</Nav.Link>
-          <Nav.Link href="#home">Contacts</Nav.Link>
+          <Nav.Link href="#AboutUs" >About Me</Nav.Link>
+          <Nav.Link href="#AboutUs" >Projects</Nav.Link>
+         <div class="icons">
+          <a href=""><ImgLinks src={Github}/></a>  
+          <a href="https://www.facebook.com/shaumik.kalwit/"><ImgLinks src={Facebook}/></a>
+         </div>
         </Nav>
         </Navbar.Collapse>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
       </Navbar>
 
       <Flexbox>
@@ -56,8 +63,8 @@ class App extends React.Component {
         <AboutText>Hi! My name is Shaumik Kalwit. I go to Lynbrook High School. I love spending
         time with family and friends. In my free time, I enjoy playing basketball, video games, 
         and even cards with family. I also enjoy programming, and reading in my free time. 
-        I am fluent in HTML, and CSS. I also have some exposure to JavaScript and React. I use 
-        these to create very nice and clean websites. I also know a bit of Python. Learn more 
+        I am fluent in HTML, CSS, and Python. I also have some exposure to JavaScript and React. I use 
+        these to create very nice and clean websites. Learn more 
         through my links!</AboutText>
        </Section>
        <Section>
@@ -65,15 +72,6 @@ class App extends React.Component {
         <Title>Projects</Title>
 
        </Section>
-       <ContactsSection> 
-
-        <Title>Contacts</Title>  
-
-         <AboutContactText><ul>Email:<br></br>shaumik.kalwit@gmail.com</ul></AboutContactText>
-
-         <AboutContactText><ul>Instagram:<br></br>https://www.instagram.com/shaumikkalwit/</ul></AboutContactText>
-
-       </ContactsSection>
 
       </Flexbox>
     </div>

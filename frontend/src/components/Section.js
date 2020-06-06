@@ -14,7 +14,6 @@ const Container = styled.div`
 	align-items: center;
 	text-align: center;
 
-
 `;
 
 class Section extends React.Component {
