@@ -40,23 +40,26 @@ class App extends React.Component {
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="#AboutUs" >About Me</Nav.Link>
-          <Nav.Link href="#AboutUs" >Projects</Nav.Link>
-         <div class="icons">
-          <a href=""><ImgLinks src={Github}/></a>  
+          <Nav.Link href="#Projects" >Projects</Nav.Link>
+        </Nav>
+        <div class="icons">
+          <a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a>  
           <a href="https://www.facebook.com/shaumik.kalwit/"><ImgLinks src={Facebook}/></a>
          </div>
-        </Nav>
         </Navbar.Collapse>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
       </Navbar>
 
-      <Flexbox>
-       <LandingPage>
-        <HomeTitle>Shaumik</HomeTitle>
-        <HomeTitle>Kalwit</HomeTitle>
+      <div id="LandingPage"></div>
+       <Flexbox>
+        <LandingPage>
+         <HomeTitle>Shaumik</HomeTitle>
+         <HomeTitle>Kalwit</HomeTitle>
 
-        <Scroll>Scroll to learn more.</Scroll>
-       </LandingPage>
+         <Scroll>Scroll to learn more.</Scroll>
+        </LandingPage>
+
+       <div id="AboutUs"></div>
        <Section>
         <AboutTitle>About Me</AboutTitle>
 
@@ -67,6 +70,8 @@ class App extends React.Component {
         these to create very nice and clean websites. Learn more 
         through my links!</AboutText>
        </Section>
+
+       <div id="Projects"></div>
        <Section>
 
         <Title>Projects</Title>
