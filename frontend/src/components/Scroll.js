@@ -6,7 +6,7 @@ const Scroll = styled.p`
 	position: absolute;
 	bottom: 0;
 
-	color: black;
+	color: white;
 
 	font-family: "Courier New", Courier, monospace;
 

@@ -8,7 +8,7 @@ const HomeTitle = styled.h1`
 		font-size: 6vw;
 	}
 
-	color: black;
+	color: white;
 
 	font-size: 18vw;
 
