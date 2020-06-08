@@ -51,9 +51,8 @@ class App extends React.Component {
         <AboutText>Hi! My name is Shaumik Kalwit. I go to Lynbrook High School. I love spending
         time with family and friends. In my free time, I enjoy playing basketball, video games, 
         and even cards with family. I also enjoy programming, and reading in my free time. 
-        I am fluent in HTML, CSS, and Python. I also have some exposure to JavaScript and React. I use 
-        these to create very nice and clean websites. Learn more 
-        through my links!</AboutText>
+        I am fluent in HTML, CSS, and Python. I also have some exposure to JavaScript and React.
+        Learn more through my links!</AboutText>
        </Section>
 
        <div id="Projects"></div>
