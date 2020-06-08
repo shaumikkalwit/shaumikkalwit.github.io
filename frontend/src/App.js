@@ -16,25 +16,10 @@ import Facebook from './images/facebook (1).png';
 import Github from './images/github.png';
 
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { apiResponse: "" };
- }
-
-  callAPI() {
-      fetch("http://localhost:9000/testAPI")
-          .then(res => res.text())
-          .then(res => this.setState({ apiResponse: res }));
-  }
-
-  componentWillMount() {
-      this.callAPI();
-  }
+class App extends React.Component { 
   render() {
     return (
     <div>
-    <p className="App-intro">;{this.state.apiResponse}</p>
       <Navbar bg="dark" variant="dark" expand="lg" position="sticky" fixed="top">
         <Navbar.Brand href="#LandingPage">Shaumik Kalwit</Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">

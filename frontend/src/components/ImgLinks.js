@@ -8,9 +8,12 @@ Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pi
   
   	@media (min-width: 992px) {
 
-  		margin-left: 15px;
-  		margin-right: 12px;
-     	margin-bottom: 0;
+      height: 4vh;
+      width: 6vh;
+
+
+     	margin-top: 0;
+      margin-bottom: 0;
   		padding: 0;
 
   	}
