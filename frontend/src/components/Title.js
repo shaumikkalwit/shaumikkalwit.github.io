@@ -5,10 +5,10 @@ const Title = styled.h1`
 
 	@media (min-width: 992px) {
 
-		font-size: 6vw;
+		font-size: 4.5vw;
 	}
 
-	color: black;
+	color: #00ffff;
 
 	font-size: 14vw;
 

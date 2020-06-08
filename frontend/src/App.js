@@ -21,11 +21,11 @@ class App extends React.Component {
     return (
     <div>
       <Navbar bg="dark" variant="dark" expand="lg" position="sticky" fixed="top">
-        <Navbar.Brand href="#LandingPage">Shaumik Kalwit</Navbar.Brand>
+        <Navbar.Brand href="#LandingPage">shaumikkalwit</Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="#AboutUs" >About Me</Nav.Link>
-          <Nav.Link href="#Projects" >Projects</Nav.Link>
+          <Nav.Link href="#Projects" color="red">Projects</Nav.Link>
         </Nav>
         <div class="icons">
           <a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a>  
@@ -65,8 +65,7 @@ class App extends React.Component {
       </Flexbox>
     </div>
   );
-  }
-  
+ }
 }
 
 export default App;
