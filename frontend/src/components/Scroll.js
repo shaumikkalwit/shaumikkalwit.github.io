@@ -8,6 +8,8 @@ const Scroll = styled.p`
 
 	color: black;
 
+	font-family: "Courier New", Courier, monospace;
+
 `;
 
 export default Scroll;
