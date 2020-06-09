@@ -8,6 +8,8 @@ const HomeTitle = styled.h1`
 		font-size: 6vw;
 	}
 
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
 	color: white;
 
 	font-size: 18vw;

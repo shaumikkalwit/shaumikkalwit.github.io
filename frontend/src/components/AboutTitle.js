@@ -12,6 +12,8 @@ const AboutTitle = styled.h1`
 
 	font-size: 14vw;
 
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
 	margin-top: 50px;
 
 `;

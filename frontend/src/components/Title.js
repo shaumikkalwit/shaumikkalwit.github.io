@@ -13,6 +13,8 @@ const Title = styled.h1`
 	font-size: 14vw;
 
 	margin-top: 50px;
+
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 `;
 
 export default Title;
