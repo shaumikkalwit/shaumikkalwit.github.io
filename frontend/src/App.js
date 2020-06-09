@@ -14,6 +14,8 @@ import ContactsSection from './components/ContactsSection';
 import ImgLinks from './components/ImgLinks';
 import Facebook from './images/facebook (1).png';
 import Github from './images/github.png';
+import Footer from './components/Footer';
+import FooterContent from './components/FooterContent';
 
 
 class App extends React.Component { 
@@ -61,6 +63,10 @@ class App extends React.Component {
         <Title>Projects</Title>
 
        </Section>
+       <Footer>
+       <FooterContent>Copyright © 2020 shaumikkalwit.</FooterContent>
+       <FooterContent>Website Made By Shaumik Kalwit</FooterContent>
+       </Footer>
 
       </Flexbox>
     </div>
