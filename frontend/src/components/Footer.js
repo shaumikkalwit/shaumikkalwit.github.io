@@ -5,7 +5,7 @@ const Footer = styled.footer`
 
   	@media (min-width: 992px) {
 
-  		width: 100vw;
+  		max-width: 100vw;
 		height: 10vh;
 
 		margin-left: 5px;
@@ -19,7 +19,7 @@ const Footer = styled.footer`
 	align-items: flex-end;
 	justify-content: space-between;
 
-	width: 100vw;
+	max-width: 100vw;
 	height: 9vh;
 
 	margin-left: 2vw;
