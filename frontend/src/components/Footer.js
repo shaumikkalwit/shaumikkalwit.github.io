@@ -20,10 +20,10 @@ const Footer = styled.footer`
 	justify-content: space-between;
 
 	max-width: 100vw;
-	height: 9vh;
+	height: 6vh;
 
-	margin-left: 2vw;
-	margin-right: 8vw;
+	margin-right: 2px;
+	margin-left: 2px;
 `;
 
 export default Footer;

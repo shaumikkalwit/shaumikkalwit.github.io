@@ -17,7 +17,7 @@ const FooterContent = styled.p`
 
   	color: black;
 
-  	font-size: 3.25vw;
+  	font-size: 3vw;
 
 
 `;
