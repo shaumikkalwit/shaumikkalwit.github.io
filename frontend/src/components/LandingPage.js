@@ -23,6 +23,7 @@ const Container = styled.div`
 	justify-content: center;	
 	align-items: center;
 	text-align: center;
+
 `;
 
 class LandingPage extends React.Component {

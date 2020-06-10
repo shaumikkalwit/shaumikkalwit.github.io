@@ -9,7 +9,7 @@ const FooterContent = styled.p`
 
 		margin-right: 1vw;
 
-		font-size: 1vw;
+		font-size: 1.25vw;
 
 		font-family: "Courier New", Courier, monospace;
 
@@ -18,8 +18,6 @@ const FooterContent = styled.p`
   	color: black;
 
   	font-size: 3vw;
-
-
 `;
 
 export default FooterContent;
