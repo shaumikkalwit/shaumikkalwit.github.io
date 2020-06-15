@@ -8,9 +8,10 @@ import HomeTitle from './components/HomeTitle';
 import Scroll from './components/Scroll';
 import AboutTitle from './components/AboutTitle';
 import AboutText from './components/AboutText';
+import AboutPicture from './components/AboutPicture';
+import AboutMePicture from './images/AboutMePicture.jpg';
+import AboutFlexbox from './components/AboutFlexbox';
 import Title from './components/Title';
-import AboutContactText from './components/AboutContactText';
-import ContactsSection from './components/ContactsSection';
 import ImgLinks from './components/ImgLinks';
 import Facebook from './images/facebook (1).png';
 import Github from './images/github.png';
@@ -63,8 +64,11 @@ class App extends React.Component {
 
        <div id="AboutUs"></div>
        <Section>
-        <AboutTitle>About Me</AboutTitle>
+        <AboutFlexbox>
+          <AboutTitle>About Me</AboutTitle>
 
+          <AboutPicture src={AboutMePicture}/>
+        </AboutFlexbox>
         <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose California. 
         I go to Lynbrook High School. I love spending time with family and friends. In my 
         free time, I enjoy playing basketball, video games, and even cards with family. I 
@@ -78,6 +82,9 @@ class App extends React.Component {
         <Title>Projects</Title>
 
        </Section>
+       <Section>
+       </Section>
+
        <Footer>
        <FooterContent>Copyright © 2020 shaumikkalwit.</FooterContent>
        <FooterContent>Website Made By Shaumik Kalwit</FooterContent>
