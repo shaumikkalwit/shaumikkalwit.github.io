@@ -16,8 +16,6 @@ const Title = styled.h1`
 
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 
-	display: flex;
-	text-align: center;
 `;
 
 export default Title;

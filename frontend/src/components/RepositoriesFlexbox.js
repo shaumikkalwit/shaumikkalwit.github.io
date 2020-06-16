@@ -5,11 +5,12 @@ const Container = styled.div`
 
   	@media (min-width: 992px) {
 
-  		width: 80vw;
+  		width: 90vw;
 		height: auto;
 
   		display: flex;
   		align-items: flex-end;
+  		justify-content: flex-start;
 
   	}
 
@@ -17,7 +18,6 @@ const Container = styled.div`
 	flex-direction: column;
 	justify-content: flex-start;	
 	align-items: center;
-	text-align: center;
 
 `;
 

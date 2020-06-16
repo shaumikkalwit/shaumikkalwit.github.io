@@ -5,12 +5,13 @@ const Container = styled.div`
 
   	@media (min-width: 992px) {
 
+  		width: 80vw;
+		height: auto;
+
+  		display: flex;
+  		align-items: center;
+
   	}
-
-  	padding-top: 56px;
-
-  	width: 100vw;
-	height: 100vh;
 
 	display: flex;
 	flex-direction: column;
@@ -18,11 +19,9 @@ const Container = styled.div`
 	align-items: center;
 	text-align: center;
 
-	background-color: black;
-
 `;
 
-class ProjectsSection extends React.Component {
+class AchievementsFlexbox extends React.Component {
 	render() {
 		return (
 			<Container>
@@ -32,4 +31,4 @@ class ProjectsSection extends React.Component {
 	}
 }
 
-export default ProjectsSection;
+export default AchievementsFlexbox;
