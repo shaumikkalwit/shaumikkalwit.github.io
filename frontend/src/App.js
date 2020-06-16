@@ -5,6 +5,7 @@ import { Card, ListGroup } from 'react-bootstrap';
 import Flexbox from './components/Flexbox';
 import Section from './components/Section';
 import ProjectsSection from './components/ProjectsSection';
+import RepositoriesFlexbox from './components/RepositoriesFlexbox';
 import LandingPage from './components/LandingPage';
 import HomeTitle from './components/HomeTitle';
 import Scroll from './components/Scroll';
@@ -70,15 +71,16 @@ class App extends React.Component {
 
         <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose California. 
         I go to Lynbrook High School. I love spending time with family and friends. In my 
-        free time, I enjoy playing basketball, video games, and even cards with family. I 
-        also enjoy programming, and reading in my free time. I am fluent in HTML, CSS, and 
-        Python. I also have some exposure to JavaScript and React. Learn more through my links!</AboutText>
+        free time, I enjoy playing basketball, video games. I also enjoy programming and 
+        reading in my free time. I am fluent in HTML, CSS, and Python. I also have some 
+        exposure to JavaScript and React. Learn more through my links!</AboutText>
        </Section>
 
        <div id="Projects"></div>
        <ProjectsSection>
 
         <Title>Projects</Title>
+        <RepositoriesFlexbox>
 
         <Card style={{ width: '18rem' }}>
           <Card.Header><b>Repositories</b></Card.Header>
@@ -90,6 +92,7 @@ class App extends React.Component {
              (Python)</ListGroup.Item>
           </ListGroup>
         </Card>
+        </RepositoriesFlexbox>
 
        </ProjectsSection>
        <Section>

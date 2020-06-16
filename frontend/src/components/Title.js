@@ -15,6 +15,9 @@ const Title = styled.h1`
 	margin-top: 50px;
 
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+	display: flex;
+	text-align: center;
 `;
 
 export default Title;
