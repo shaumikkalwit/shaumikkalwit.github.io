@@ -1,8 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav } from 'react-bootstrap';
+import { Card, ListGroup } from 'react-bootstrap';
 import Flexbox from './components/Flexbox';
 import Section from './components/Section';
+import ProjectsSection from './components/ProjectsSection';
 import LandingPage from './components/LandingPage';
 import HomeTitle from './components/HomeTitle';
 import Scroll from './components/Scroll';
@@ -74,17 +76,29 @@ class App extends React.Component {
        </Section>
 
        <div id="Projects"></div>
-       <Section>
+       <ProjectsSection>
 
         <Title>Projects</Title>
 
-       </Section>
+        <Card style={{ width: '18rem' }}>
+          <Card.Header><b>Repositories</b></Card.Header>
+          <ListGroup variant="flush">
+            <ListGroup.Item>Guessing Game: A guessing game made for you to relax and have fun. (Python)</ListGroup.Item>
+            <ListGroup.Item>Lynbrook AID Website: Website created for the Lynbrook AID Organization
+            in Lynbrook (JavaScript, HTML, CSS)</ListGroup.Item>
+            <ListGroup.Item>GhostWriter: Researches and compiles information related to a given topic.
+             (Python)</ListGroup.Item>
+          </ListGroup>
+        </Card>
+
+       </ProjectsSection>
        <Section>
+
        </Section>
 
        <Footer>
-       <FooterContent>Copyright © 2020 shaumikkalwit.</FooterContent>
-       <FooterContent>Website Made By Shaumik Kalwit</FooterContent>
+        <FooterContent>Copyright © 2020 shaumikkalwit.</FooterContent>
+        <FooterContent>Website Made By Shaumik Kalwit</FooterContent>
        </Footer>
 
       </Flexbox>
