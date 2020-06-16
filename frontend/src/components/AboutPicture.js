@@ -5,12 +5,12 @@ const AboutPicture = styled.img`
 
 	@media (min-width: 992px) {
 
-		width: 10vw;
-  		height: 15vh;
+		width: 40vw;
+  		height: auto;
 	}
 
   	width: 80vw;
-  	height: 40vh;
+  	height: auto;
 
 
 `;

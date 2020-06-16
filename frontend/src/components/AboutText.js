@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const AboutText = styled.p`
 	@media (min-width: 992px) {
 
-		font-size: 1.75vw;
+		font-size: 1.5vw;
 
 		padding-left: 15vw;
   		padding-right: 15vw;

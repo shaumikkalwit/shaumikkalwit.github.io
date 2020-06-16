@@ -10,7 +10,6 @@ import AboutTitle from './components/AboutTitle';
 import AboutText from './components/AboutText';
 import AboutPicture from './components/AboutPicture';
 import AboutMePicture from './images/AboutMePicture.jpg';
-import AboutFlexbox from './components/AboutFlexbox';
 import Title from './components/Title';
 import ImgLinks from './components/ImgLinks';
 import Facebook from './images/facebook (1).png';
@@ -64,11 +63,9 @@ class App extends React.Component {
 
        <div id="AboutUs"></div>
        <Section>
-        <AboutFlexbox>
-          <AboutTitle>About Me</AboutTitle>
 
-          <AboutPicture src={AboutMePicture}/>
-        </AboutFlexbox>
+        <AboutTitle>About Me</AboutTitle>
+
         <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose California. 
         I go to Lynbrook High School. I love spending time with family and friends. In my 
         free time, I enjoy playing basketball, video games, and even cards with family. I 
