@@ -9,7 +9,6 @@ import CardFlexbox from './components/CardFlexbox';
 import LandingPage from './components/LandingPage';
 import HomeTitle from './components/HomeTitle';
 import Scroll from './components/Scroll';
-import AboutTitle from './components/AboutTitle';
 import AboutText from './components/AboutText';
 import AboutPicture from './components/AboutPicture';
 import AboutMePicture from './images/AboutMePicture.jpg';
@@ -68,7 +67,7 @@ class App extends React.Component {
        <div id="AboutUs"></div>
        <Section>
 
-        <AboutTitle>About Me</AboutTitle>
+        <Title>About Me</Title>
 
         <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose California. 
         I go to Lynbrook High School. I love spending time with family and friends. In my 
@@ -99,10 +98,10 @@ class App extends React.Component {
         <Card style={{ width: '20rem' }}>
           <Card.Header><b>Projects</b></Card.Header>
           <ListGroup variant="flush">
-            <ListGroup.Item>Guessing Game: A guessing game made for you to relax and have fun. <br></br>(Python)</ListGroup.Item>
-            <ListGroup.Item>Lynbrook AID Website: Website created for the Lynbrook AID Organization
+            <ListGroup.Item>Guessing Game:<br></br> A guessing game made for you to relax and have fun. <br></br>(Python)</ListGroup.Item>
+            <ListGroup.Item>Lynbrook AID Website: <br></br>Website created for the Lynbrook AID Organization
             in Lynbrook. <br></br>(JavaScript, HTML, CSS)</ListGroup.Item>
-            <ListGroup.Item>GhostWriter: Researches and compiles information related to a given topic.
+            <ListGroup.Item>GhostWriter: <br></br>Researches and compiles information related to a given topic.
              <br></br>(Python)</ListGroup.Item>
           </ListGroup>
         </Card>

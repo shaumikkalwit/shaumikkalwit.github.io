@@ -8,6 +8,7 @@ const Container = styled.div`
   	}
 
   	padding-top: 56px;
+  	padding-bottom: 56px;
 
   	width: 100vw;
 	height: auto;
