@@ -87,8 +87,8 @@ class App extends React.Component {
           <ListGroup variant="flush">
             <ListGroup.Item>Total Number of Repositories:<br></br> 3</ListGroup.Item>
             <ListGroup.Item>Total Number of Commits:<br></br> 380</ListGroup.Item>
-            <ListGroup.Item>Total Number of Commits in Last Year:<br></br> 380</ListGroup.Item>
-            <ListGroup.Item>Total Number of Followers:<br></br> 5</ListGroup.Item>
+            <ListGroup.Item>Total Number of Commits in The Past Year:<br></br> 380</ListGroup.Item>
+            <ListGroup.Item>Total Number of Commits in The Past Week:<br></br> 25</ListGroup.Item>
             <ListGroup.Item>Total Number of Followers:<br></br> 5</ListGroup.Item>
             <ListGroup.Item><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
           </ListGroup>
