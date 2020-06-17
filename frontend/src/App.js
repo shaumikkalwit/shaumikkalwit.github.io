@@ -94,7 +94,7 @@ class App extends React.Component {
             <ListGroup.Item><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
           </ListGroup>
         </Card>
-        
+
 
         <Card style={{ width: '20rem' }}>
           <Card.Header><b>Projects</b></Card.Header>

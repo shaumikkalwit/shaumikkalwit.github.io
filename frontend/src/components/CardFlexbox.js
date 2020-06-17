@@ -9,11 +9,14 @@ const Container = styled.div`
 		flex-direction: row;
 		justify-content: space-around;
 
+		margin-right: 20vw;
+		margin-left: 20vw;
+
   	}
 
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;	
+	justify-content: center;	
 	align-items: center;
 	text-align: center;
 
