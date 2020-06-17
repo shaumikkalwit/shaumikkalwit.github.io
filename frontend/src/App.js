@@ -109,9 +109,6 @@ class App extends React.Component {
         </CardFlexbox>
 
        </ProjectsSection>
-       <Section>
-
-       </Section>
 
        <Footer>
         <FooterContent>Copyright © 2020 shaumikkalwit.</FooterContent>
