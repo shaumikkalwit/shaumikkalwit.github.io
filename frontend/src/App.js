@@ -5,8 +5,7 @@ import { Card, ListGroup } from 'react-bootstrap';
 import Flexbox from './components/Flexbox';
 import Section from './components/Section';
 import ProjectsSection from './components/ProjectsSection';
-import RepositoriesFlexbox from './components/RepositoriesFlexbox';
-import AchievementsFlexbox from './components/AchievementsFlexbox';
+import CardFlexbox from './components/CardFlexbox';
 import LandingPage from './components/LandingPage';
 import HomeTitle from './components/HomeTitle';
 import Scroll from './components/Scroll';
@@ -82,7 +81,17 @@ class App extends React.Component {
 
         <Title>Projects</Title>
 
-        <AchievementsFlexbox>
+        <CardFlexbox>
+        <Card style={{ width: '20rem' }}>
+          <Card.Header><b>Github Stats</b></Card.Header>
+          <ListGroup variant="flush">
+            <ListGroup.Item>Number of Repositories</ListGroup.Item>
+            <ListGroup.Item>dgfgshosdghoighoisdhgoisdhgodhgoisdghoidsghiosdhgas</ListGroup.Item>
+            <ListGroup.Item>dgfgshosdghoighoisdhgoisdhgodhgoisdghoidsghiosdhgas</ListGroup.Item>
+          </ListGroup>
+        </Card>
+
+
         <Card style={{ width: '20rem' }}>
           <Card.Header><b>Achievements</b></Card.Header>
           <ListGroup variant="flush">
@@ -91,9 +100,8 @@ class App extends React.Component {
             <ListGroup.Item>dgfgshosdghoighoisdhgoisdhgodhgoisdghoidsghiosdhgas</ListGroup.Item>
           </ListGroup>
         </Card>
-        </AchievementsFlexbox>
+        
 
-        <RepositoriesFlexbox>
         <Card style={{ width: '20rem' }}>
           <Card.Header><b>Repositories</b></Card.Header>
           <ListGroup variant="flush">
@@ -104,7 +112,7 @@ class App extends React.Component {
              (Python)</ListGroup.Item>
           </ListGroup>
         </Card>
-        </RepositoriesFlexbox>
+        </CardFlexbox>
 
        </ProjectsSection>
        <Section>

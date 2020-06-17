@@ -5,23 +5,21 @@ const Container = styled.div`
 
   	@media (min-width: 992px) {
 
-  		width: 90vw;
-		height: auto;
-
   		display: flex;
-  		align-items: flex-end;
-  		justify-content: flex-start;
+		flex-direction: row;
+		justify-content: space-around;
 
   	}
 
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;	
+	justify-content: space-around;	
 	align-items: center;
+	text-align: center;
 
 `;
 
-class RepositoriesFlexbox extends React.Component {
+class CardFlexbox extends React.Component {
 	render() {
 		return (
 			<Container>
@@ -31,4 +29,4 @@ class RepositoriesFlexbox extends React.Component {
 	}
 }
 
-export default RepositoriesFlexbox;
+export default CardFlexbox;
