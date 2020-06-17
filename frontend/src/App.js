@@ -15,6 +15,7 @@ import AboutPicture from './components/AboutPicture';
 import AboutMePicture from './images/AboutMePicture.jpg';
 import Title from './components/Title';
 import ImgLinks from './components/ImgLinks';
+import ImgLinksG from './components/ImgLinksG';
 import Facebook from './images/facebook (1).png';
 import Github from './images/github.png';
 import Footer from './components/Footer';
@@ -85,31 +86,24 @@ class App extends React.Component {
         <Card style={{ width: '20rem' }}>
           <Card.Header><b>Github Stats</b></Card.Header>
           <ListGroup variant="flush">
-            <ListGroup.Item>Number of Repositories</ListGroup.Item>
-            <ListGroup.Item>dgfgshosdghoighoisdhgoisdhgodhgoisdghoidsghiosdhgas</ListGroup.Item>
-            <ListGroup.Item>dgfgshosdghoighoisdhgoisdhgodhgoisdghoidsghiosdhgas</ListGroup.Item>
-          </ListGroup>
-        </Card>
-
-
-        <Card style={{ width: '20rem' }}>
-          <Card.Header><b>Achievements</b></Card.Header>
-          <ListGroup variant="flush">
-            <ListGroup.Item>dgfgshosdghoighoisdhgoisdhgodhgoisdghoidsghiosdhgas</ListGroup.Item>
-            <ListGroup.Item>dgfgshosdghoighoisdhgoisdhgodhgoisdghoidsghiosdhgas</ListGroup.Item>
-            <ListGroup.Item>dgfgshosdghoighoisdhgoisdhgodhgoisdghoidsghiosdhgas</ListGroup.Item>
+            <ListGroup.Item>Total Number of Repositories:<br></br> 3</ListGroup.Item>
+            <ListGroup.Item>Total Number of Commits:<br></br> 380</ListGroup.Item>
+            <ListGroup.Item>Total Number of Commits in Last Year:<br></br> 380</ListGroup.Item>
+            <ListGroup.Item>Total Number of Followers:<br></br> 5</ListGroup.Item>
+            <ListGroup.Item>Total Number of Followers:<br></br> 5</ListGroup.Item>
+            <ListGroup.Item><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
           </ListGroup>
         </Card>
         
 
         <Card style={{ width: '20rem' }}>
-          <Card.Header><b>Repositories</b></Card.Header>
+          <Card.Header><b>Projects</b></Card.Header>
           <ListGroup variant="flush">
-            <ListGroup.Item>Guessing Game: A guessing game made for you to relax and have fun. (Python)</ListGroup.Item>
+            <ListGroup.Item>Guessing Game: A guessing game made for you to relax and have fun. <br></br>(Python)</ListGroup.Item>
             <ListGroup.Item>Lynbrook AID Website: Website created for the Lynbrook AID Organization
-            in Lynbrook (JavaScript, HTML, CSS)</ListGroup.Item>
+            in Lynbrook. <br></br>(JavaScript, HTML, CSS)</ListGroup.Item>
             <ListGroup.Item>GhostWriter: Researches and compiles information related to a given topic.
-             (Python)</ListGroup.Item>
+             <br></br>(Python)</ListGroup.Item>
           </ListGroup>
         </Card>
         </CardFlexbox>
