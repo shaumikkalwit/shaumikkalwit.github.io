@@ -99,8 +99,14 @@ class App extends React.Component {
           <Card.Header><b>Projects</b></Card.Header>
           <ListGroup variant="flush">
             <ListGroup.Item>Guessing Game:<br></br> A guessing game made for you to relax and have fun. <br></br>(Python)</ListGroup.Item>
-            <ListGroup.Item>Lynbrook AID Website: <br></br>Website created for the Lynbrook AID Organization
+            <ListGroup.Item>Lynbrook AID Website: <br></br>Website created for the Lynbrook AID Organization.
             in Lynbrook. <br></br>(JavaScript, HTML, CSS)</ListGroup.Item>
+
+            <ListGroup.Item>Guessing Game:<br></br> A guessing game made for you to relax and have fun. <br></br>(Python)</ListGroup.Item>
+
+            <ListGroup.Item>Covid Trackr Website: <br></br>Website created to easily check new and up to date 
+            Covid-19 information.<br></br>(JavaScript, HTML, CSS)</ListGroup.Item>
+
             <ListGroup.Item>GhostWriter: <br></br>Researches and compiles information related to a given topic.
              <br></br>(Python)</ListGroup.Item>
           </ListGroup>
