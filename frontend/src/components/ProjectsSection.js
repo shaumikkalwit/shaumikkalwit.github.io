@@ -5,10 +5,11 @@ const Container = styled.div`
 
   	@media (min-width: 992px) {
 
+  		padding-bottom: 56px;
+
   	}
 
   	padding-top: 56px;
-  	padding-bottom: 56px;
 
   	width: 100vw;
 	height: auto;

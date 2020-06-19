@@ -6,6 +6,7 @@ import Flexbox from './components/Flexbox';
 import Section from './components/Section';
 import ProjectsSection from './components/ProjectsSection';
 import CardFlexbox from './components/CardFlexbox';
+import CardStyled from './components/CardStyled';
 import LandingPage from './components/LandingPage';
 import HomeTitle from './components/HomeTitle';
 import Scroll from './components/Scroll';
@@ -82,6 +83,7 @@ class App extends React.Component {
         <Title>Projects</Title>
 
         <CardFlexbox>
+        <CardStyled>
         <Card style={{ width: '20rem' }}>
           <Card.Header><b>Github Stats</b></Card.Header>
           <ListGroup variant="flush">
@@ -93,8 +95,9 @@ class App extends React.Component {
             <ListGroup.Item><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
           </ListGroup>
         </Card>
+        </CardStyled>
 
-
+        <CardStyled>
         <Card style={{ width: '20rem' }}>
           <Card.Header><b>Projects</b></Card.Header>
           <ListGroup variant="flush">
@@ -106,8 +109,11 @@ class App extends React.Component {
 
             <ListGroup.Item>GhostWriter: <br></br>Researches and compiles information related to a given topic.
              <br></br>(Python)</ListGroup.Item>
+
+             <ListGroup.Item><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
           </ListGroup>
         </Card>
+        </CardStyled>
         </CardFlexbox>
 
        </ProjectsSection>

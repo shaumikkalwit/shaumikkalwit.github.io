@@ -6,13 +6,13 @@ const AboutText = styled.p`
 
 		font-size: 1.65vw;
 
-		padding-left: 15vw;
-  		padding-right: 15vw;
+		padding-left: 20vw;
+  		padding-right: 20vw;
 	}
 
 	color: white;
 
-	font-size: 4.75vw;
+	font-size: 5vw;
 
 	padding-right: 10px;
 	padding-left: 10px;
