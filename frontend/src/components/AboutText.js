@@ -12,7 +12,7 @@ const AboutText = styled.p`
 
 	color: white;
 
-	font-size: 4vw;
+	font-size: 4.75vw;
 
 	padding-right: 10px;
 	padding-left: 10px;

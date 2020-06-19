@@ -10,15 +10,17 @@ const Container = styled.div`
 		justify-content: space-around;
 		align-items: flex-start;
 
-		margin-top: 8vh;
+		padding-top: 8vh;
 		margin-right: 20vw;
 		margin-left: 20vw;
 
   	}
+  	
+  	padding-top: 8vh;
 
 	display: flex;
 	flex-direction: column;
-	justify-content: center;	
+	justify-content: space-around;	
 	align-items: center;
 	text-align: center;
 
