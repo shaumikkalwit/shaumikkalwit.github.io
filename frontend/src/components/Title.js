@@ -14,7 +14,7 @@ const Title = styled.h1`
 
 	margin-top: 30px;
 
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 `;
 

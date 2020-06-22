@@ -8,7 +8,7 @@ const HomeTitle = styled.h1`
 		font-size: 6vw;
 	}
 
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 	color: white;
 
