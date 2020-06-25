@@ -12,7 +12,7 @@ import HomeTitle from './components/HomeTitle';
 import Scroll from './components/Scroll';
 import AboutText from './components/AboutText';
 import AboutPicture from './components/AboutPicture';
-import AboutMePicture from './images/AboutMePicture.jpg';
+import AboutMePicture from './images/AboutMePicture.jpeg';
 import Title from './components/Title';
 import ImgLinks from './components/ImgLinks';
 import ImgLinksG from './components/ImgLinksG';
@@ -69,6 +69,8 @@ class App extends React.Component {
        <Section>
 
         <Title>About Me</Title>
+
+        <AboutPicture src={AboutMePicture}/>
 
         <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose California. 
         I go to Lynbrook High School. I love spending time with family and friends. In my 
