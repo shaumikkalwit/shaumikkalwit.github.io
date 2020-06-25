@@ -49,6 +49,8 @@ class App extends React.Component {
           <Nav.Link href="#Projects" color="red">Projects</Nav.Link>
         </Nav>
         <div class="icons">
+          {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
+          {/* Icons made by https://www.flaticon.com/authors/freepik */}
           <a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a>  
           <a href="https://www.facebook.com/shaumik.kalwit/"><ImgLinks src={Facebook}/></a>
          </div>
