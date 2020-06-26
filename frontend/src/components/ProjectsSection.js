@@ -18,6 +18,7 @@ const Container = styled.div`
 	flex-direction: column;
 	justify-content: flex-start;	
 	text-align: center;
+	scroll-snap-align: start;
 
 	background-color: black;
 

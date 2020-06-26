@@ -15,6 +15,7 @@ const Container = styled.div`
 	justify-content: space-between;	
 	align-items: center;
 	text-align: center;
+	scroll-snap-align: start;
 
 `;
 

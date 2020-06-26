@@ -3,6 +3,13 @@ import styled from 'styled-components';
 
 const Container = styled.div`
 
+	display: flex;
+	flex-direction: column;
+
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+	display: flex;
+
 	width: 100vw;
 
 `;
