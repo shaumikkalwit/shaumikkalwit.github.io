@@ -3,8 +3,14 @@ import styled from 'styled-components';
 
 const ImgLinks = styled.img`
 
-  	height: 3.5vh;
-  	width: 3.5vh;
+	@media (min-width: 992px) {
+
+		height: 3.5vh;
+
+	}
+
+  	height: 3vh;
+
 
   	margin-top: 10px;
   	margin-bottom: 10px;

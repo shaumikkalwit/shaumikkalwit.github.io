@@ -20,6 +20,7 @@ import ImgLinksG from './components/ImgLinksG';
 import Facebook from './images/facebook (1).png';
 import Github from './images/github.png';
 import Footer from './components/Footer';
+import Instagram from './images/instagram.png';
 
 
 class App extends React.Component { 
@@ -51,8 +52,10 @@ class App extends React.Component {
         <div class="icons">
           {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
           {/* Icons made by https://www.flaticon.com/authors/freepik */}
+          {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
           <a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a>  
           <a href="https://www.facebook.com/shaumik.kalwit/"><ImgLinks src={Facebook}/></a>
+          <a href="https://www.instagram.com/shaumikkalwit/"><ImgLinks src={Instagram}/></a>
          </div>
         </Navbar.Collapse>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
