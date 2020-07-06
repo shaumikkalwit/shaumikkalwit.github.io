@@ -13,7 +13,7 @@ const AboutPicture = styled.img`
   		margin-top: 10px;
 	}
 
-  	width: 45vw;
+  	width: 55vw;
 	height: 25vh;
 
   	border-radius: 50%;

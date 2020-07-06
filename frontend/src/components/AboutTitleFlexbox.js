@@ -7,7 +7,8 @@ const AboutTitleFlexbox = styled.div`
 
 		width: 100vw;
 		padding-left: 25vw;
-		padding-right: 25vw; 
+		padding-right: 25vw;
+		padding-top: 5vh; 
 
 		display: flex;
 		flex-direction: row;
