@@ -12,7 +12,8 @@ import HomeTitle from './components/HomeTitle';
 import Scroll from './components/Scroll';
 import AboutText from './components/AboutText';
 import AboutPicture from './components/AboutPicture';
-import AboutMePicture from './images/AboutMePicture.jpeg';
+import AboutMePicture from './images/2020-01-04.jpeg';
+import AboutTitleFlexbox from './components/AboutTitleFlexbox';
 import Title from './components/Title';
 import ImgLinks from './components/ImgLinks';
 import ImgLinksG from './components/ImgLinksG';
@@ -68,10 +69,12 @@ class App extends React.Component {
 
        <div id="AboutUs"></div>
        <Section>
+       <AboutTitleFlexbox>
 
         <Title>About Me</Title>
 
         <AboutPicture src={AboutMePicture}/>
+       </AboutTitleFlexbox>
 
         <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose California. 
         I go to Lynbrook High School. In my free time, I enjoy playing basketball, video games, as well as programming
@@ -122,7 +125,7 @@ class App extends React.Component {
        </ProjectsSection>
 
        <Footer>
-        <p>Copyright © 2020 shaumikkalwit.</p>
+        <p>Copyright © 2020 Shaumik Kalwit.</p>
        </Footer>
 
       </Flexbox>

@@ -9,8 +9,6 @@ const Container = styled.div`
 
 	padding-top: 56px;
 
-	scroll-snap-align: start;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
