@@ -6,7 +6,7 @@ const Container = styled.div`
 
 	@media (min-width: 992px) {
 
-		background-position: 50% 69%;
+		background-position: 50% 67%;
 	}
 
  	background-image: url(${Background});
