@@ -19,7 +19,6 @@ import ImgLinksG from './components/ImgLinksG';
 import Facebook from './images/facebook (1).png';
 import Github from './images/github.png';
 import Footer from './components/Footer';
-import FooterContent from './components/FooterContent';
 
 
 class App extends React.Component { 
@@ -75,10 +74,10 @@ class App extends React.Component {
         <AboutPicture src={AboutMePicture}/>
 
         <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose California. 
-        I go to Lynbrook High School. I love spending time with family and friends. In my 
-        free time, I enjoy playing basketball, video games. I also enjoy programming and 
-        reading in my free time. I am fluent in HTML, CSS, and Python. I also have some 
-        exposure to JavaScript and React. Learn more through my links!</AboutText>
+        I go to Lynbrook High School. In my free time, I enjoy playing basketball, video games, as well as programming
+        in my free time. I am fluent in HTML, CSS, and Python. I also have some 
+        exposure to JavaScript and React. I am also the Webmaster of the sub chapter of
+        AID, known as TeenAIDers. Learn more through my links!</AboutText>
        </Section>
 
        <div id="Projects"></div>
@@ -91,11 +90,11 @@ class App extends React.Component {
         <Card style={{ width: '20rem' }}>
           <Card.Header><b>Github Stats</b></Card.Header>
           <ListGroup variant="flush">
-            <ListGroup.Item>Total Number of Repositories:<br></br> 3</ListGroup.Item>
-            <ListGroup.Item>Total Number of Commits:<br></br> 380</ListGroup.Item>
-            <ListGroup.Item>Total Number of Commits in The Past Year:<br></br> 380</ListGroup.Item>
-            <ListGroup.Item>Total Number of Commits in The Past Week:<br></br> 25</ListGroup.Item>
-            <ListGroup.Item>Total Number of Followers:<br></br> 5</ListGroup.Item>
+            <ListGroup.Item><b>Total Number of Repositories</b>:<br></br> 3</ListGroup.Item>
+            <ListGroup.Item><b>Total Number of Commits</b>:<br></br> 380</ListGroup.Item>
+            <ListGroup.Item><b>Total Number of Commits in The Past Year</b>:<br></br> 380</ListGroup.Item>
+            <ListGroup.Item><b>Total Number of Commits in The Past Week</b>:<br></br> 25</ListGroup.Item>
+            <ListGroup.Item><b>Total Number of Followers</b>:<br></br> 5</ListGroup.Item>
             <ListGroup.Item><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
           </ListGroup>
         </Card>
@@ -106,12 +105,12 @@ class App extends React.Component {
           <Card.Header><b>Projects</b></Card.Header>
           <ListGroup variant="flush">
            
-            <ListGroup.Item>Lynbrook AID Website: <br></br>Website created for the Lynbrook AID Organization.
+            <ListGroup.Item><b>Lynbrook AID Website</b>: <br></br>Website created for the Lynbrook AID Organization.
             in Lynbrook. <br></br>(JavaScript, HTML, CSS)</ListGroup.Item>
 
-            <ListGroup.Item>Guessing Game:<br></br> A guessing game made for you to relax and have fun. <br></br>(Python)</ListGroup.Item>
+            <ListGroup.Item><b>Guessing Game</b>:<br></br> A guessing game made for you to relax and have fun. <br></br>(Python)</ListGroup.Item>
 
-            <ListGroup.Item>GhostWriter: <br></br>Researches and compiles information related to a given topic.
+            <ListGroup.Item><b>GhostWriter</b>: <br></br>Researches and compiles information related to a given topic.
              <br></br>(Python)</ListGroup.Item>
 
              <ListGroup.Item><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
@@ -123,8 +122,7 @@ class App extends React.Component {
        </ProjectsSection>
 
        <Footer>
-        <FooterContent>Copyright © 2020 shaumikkalwit.</FooterContent>
-        <FooterContent>Website Made By Shaumik Kalwit</FooterContent>
+        <p>Copyright © 2020 shaumikkalwit.</p>
        </Footer>
 
       </Flexbox>

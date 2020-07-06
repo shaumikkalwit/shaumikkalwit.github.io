@@ -17,13 +17,11 @@ const Footer = styled.footer`
 	
 	display: flex;
 	align-items: flex-end;
-	justify-content: space-between;
+	justify-content: center;
 
 	max-width: 100vw;
 	height: 6vh;
 
-	margin-right: 2px;
-	margin-left: 2px;
 `;
 
 export default Footer;
