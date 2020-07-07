@@ -6,8 +6,6 @@ const Title = styled.h1`
 	@media (min-width: 992px) {
 
 		font-size: 4.5vw;
-
-		margin-top: 65px;
 	}
 
 	color: #00ffff;

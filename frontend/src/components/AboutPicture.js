@@ -5,20 +5,22 @@ const AboutPicture = styled.img`
 
 	@media (min-width: 992px) {
 
-		width: 15vw;
-		height: 28vh;
+		width: 20vw;
+		height: 45vh;
 
   		border-radius: 50%;
 
-  		margin-top: 10px;
+  		padding-bottom: 30px;
 	}
 
-  	width: 55vw;
-	height: 25vh;
+  	width: 65vw;
+	height: 35vh;
 
   	border-radius: 50%;
 
   	top: 0;
+
+  	padding-bottom: 30px;
 
 
 `;

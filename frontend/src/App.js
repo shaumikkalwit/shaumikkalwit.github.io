@@ -13,7 +13,6 @@ import Scroll from './components/Scroll';
 import AboutText from './components/AboutText';
 import AboutPicture from './components/AboutPicture';
 import AboutMePicture from './images/2020-01-04.jpeg';
-import AboutTitleFlexbox from './components/AboutTitleFlexbox';
 import Title from './components/Title';
 import ImgLinks from './components/ImgLinks';
 import ImgLinksG from './components/ImgLinksG';
@@ -72,18 +71,15 @@ class App extends React.Component {
 
        <div id="AboutUs"></div>
        <Section>
-       <AboutTitleFlexbox>
 
         <Title>About Me</Title>
 
         <AboutPicture src={AboutMePicture}/>
-       </AboutTitleFlexbox>
 
         <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose California. 
         I go to Lynbrook High School. In my free time, I enjoy playing basketball, video games, as well as programming
         in my free time. I am fluent in HTML, CSS, and Python. I also have some 
-        exposure to JavaScript and React. I am also the Webmaster of the sub chapter of
-        AID, known as TeenAIDers. Learn more through my links!</AboutText>
+        exposure to JavaScript and React. Learn more through my links!</AboutText>
        </Section>
 
        <div id="Projects"></div>
@@ -115,9 +111,6 @@ class App extends React.Component {
             in Lynbrook. <br></br>(JavaScript, HTML, CSS)</ListGroup.Item>
 
             <ListGroup.Item><b>Guessing Game</b>:<br></br> A guessing game made for you to relax and have fun. <br></br>(Python)</ListGroup.Item>
-
-            <ListGroup.Item><b>GhostWriter</b>: <br></br>Researches and compiles information related to a given topic.
-             <br></br>(Python)</ListGroup.Item>
 
              <ListGroup.Item><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
           </ListGroup>
