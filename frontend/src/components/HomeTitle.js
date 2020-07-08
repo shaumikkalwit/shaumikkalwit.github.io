@@ -10,7 +10,7 @@ const HomeTitle = styled.h1`
 
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
-	color: white;
+	color: #8EF9F3;
 
 	font-size: 18vw;
 

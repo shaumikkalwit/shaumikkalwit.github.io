@@ -10,7 +10,7 @@ const AboutText = styled.p`
   		padding-right: 23vw;
 	}
 
-	color: white;
+	color: #FCC8C2;
 
 	font-size: 5vw;
 

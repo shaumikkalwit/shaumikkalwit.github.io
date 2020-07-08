@@ -6,20 +6,15 @@ const AboutPicture = styled.img`
 	@media (min-width: 992px) {
 
 		width: 20vw;
-		height: 45vh;
+		height: auto;
 
   		padding-bottom: 20px;
 	}
 
-  	width: 65vw;
-	height: 35vh;
+  	width: 70vw;
+	height: auto;
 
   	border-radius: 50%;
-
-  	top: 0;
-
-  	padding-bottom: 30px;
-
 
 `;
 

@@ -12,7 +12,7 @@ import HomeTitle from './components/HomeTitle';
 import Scroll from './components/Scroll';
 import AboutText from './components/AboutText';
 import AboutPicture from './components/AboutPicture';
-import AboutMePicture from './images/2020-01-04.jpeg';
+import AboutMePicture from './images/aboutpicture.jpg';
 import Title from './components/Title';
 import ImgLinks from './components/ImgLinks';
 import ImgLinksG from './components/ImgLinksG';
@@ -43,11 +43,11 @@ class App extends React.Component {
      <div id="LandingPage"></div>
      <p className="App-intro">;{this.state.apiResponse}</p>
       <Navbar bg="dark" variant="dark" expand="lg" position="sticky" fixed="top">
-        <Navbar.Brand href="#LandingPage">shaumikkalwit</Navbar.Brand>
+        <Navbar.Brand style={{ color: '#8EF9F3' }} href="#LandingPage">shaumikkalwit</Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#AboutUs" >About Me</Nav.Link>
-          <Nav.Link href="#Projects" color="red">Projects</Nav.Link>
+          <Nav.Link style={{ color: '#FCC8C2' }} href="#AboutUs" >About Me</Nav.Link>
+          <Nav.Link style={{ color: '#FCC8C2' }} href="#Projects">Projects</Nav.Link>
         </Nav>
         <div class="icons">
           {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
