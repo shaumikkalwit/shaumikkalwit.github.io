@@ -107,10 +107,7 @@ class App extends React.Component {
           <Card.Header><b>Projects</b></Card.Header>
           <ListGroup variant="flush">
            
-            <ListGroup.Item><b>Lynbrook AID Website</b>: <br></br>Website created for the Lynbrook AID Organization.
-            in Lynbrook. <br></br>(JavaScript, HTML, CSS)</ListGroup.Item>
-
-            <ListGroup.Item><b>Guessing Game</b>:<br></br> A guessing game made for you to relax and have fun. <br></br>(Python)</ListGroup.Item>
+            <ListGroup.Item><b>TeenAIDers Website</b>: <br></br>Website for the AID chapter TeenAIDers.<br></br>(JavaScript, HTML, CSS)</ListGroup.Item>
 
              <ListGroup.Item><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
           </ListGroup>
