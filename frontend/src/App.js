@@ -43,7 +43,7 @@ class App extends React.Component {
      <div id="LandingPage"></div>
      <p className="App-intro">;{this.state.apiResponse}</p>
       <Navbar bg="dark" variant="dark" expand="lg" position="sticky" fixed="top">
-        <Navbar.Brand style={{ color: '#8EF9F3' }} href="#LandingPage">shaumikkalwit</Navbar.Brand>
+        <Navbar.Brand style={{ color: '#8EF9F3' }} href="#LandingPage"><b>shaumikkalwit</b></Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link style={{ color: '#FCC8C2' }} href="#AboutUs" >About Me</Nav.Link>
@@ -63,8 +63,8 @@ class App extends React.Component {
 
        <Flexbox>
         <LandingPage>
-         <HomeTitle>Shaumik</HomeTitle>
-         <HomeTitle>Kalwit</HomeTitle>
+         <HomeTitle><b>Shaumik</b></HomeTitle>
+         <HomeTitle><b>Kalwit</b></HomeTitle>
 
          <Scroll>Scroll to learn more.</Scroll>
         </LandingPage>
