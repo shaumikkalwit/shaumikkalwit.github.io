@@ -8,18 +8,15 @@ const Footer = styled.footer`
   		max-width: 100vw;
 		height: 10vh;
 
-		margin-left: 5px;
-		margin-right: 5px;
-
   	}
 
-  	background-color: white;
+  	background-color: #1B1B1E;
 	
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
 
-	max-width: 100vw;
+	width: 100vw;
 	height: 6vh;
 
 `;

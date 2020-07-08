@@ -118,7 +118,7 @@ class App extends React.Component {
        </ProjectsSection>
 
        <Footer>
-        <p>Copyright © 2020 Shaumik Kalwit.</p>
+        <p style={{ color: '#FCC8C2' }}>Copyright © 2020 Shaumik Kalwit.</p>
        </Footer>
 
       </Flexbox>
