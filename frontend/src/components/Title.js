@@ -8,7 +8,7 @@ const Title = styled.h1`
 		font-size: 4.5vw;
 	}
 
-	color: #00ffff;
+	color: #8EF9F3;
 
 	font-size: 14vw;
 

@@ -40,6 +40,7 @@ class App extends React.Component {
   render() {
     return (
     <div>
+     <div id="LandingPage"></div>
      <p className="App-intro">;{this.state.apiResponse}</p>
       <Navbar bg="dark" variant="dark" expand="lg" position="sticky" fixed="top">
         <Navbar.Brand href="#LandingPage">shaumikkalwit</Navbar.Brand>
@@ -60,7 +61,6 @@ class App extends React.Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
       </Navbar>
 
-      <div id="LandingPage"></div>
        <Flexbox>
         <LandingPage>
          <HomeTitle>Shaumik</HomeTitle>
@@ -90,26 +90,26 @@ class App extends React.Component {
         <CardFlexbox>
         <CardStyled>
         <Card style={{ width: '20rem' }}>
-          <Card.Header><b>Github Stats</b></Card.Header>
+          <Card.Header style={{ background: '#FCC8C2' }}><b>Github Stats</b></Card.Header>
           <ListGroup variant="flush">
-            <ListGroup.Item><b>Total Number of Repositories</b>:<br></br> 3</ListGroup.Item>
-            <ListGroup.Item><b>Total Number of Commits</b>:<br></br> 380</ListGroup.Item>
-            <ListGroup.Item><b>Total Number of Commits in The Past Year</b>:<br></br> 380</ListGroup.Item>
-            <ListGroup.Item><b>Total Number of Commits in The Past Week</b>:<br></br> 25</ListGroup.Item>
-            <ListGroup.Item><b>Total Number of Followers</b>:<br></br> 5</ListGroup.Item>
-            <ListGroup.Item><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
+            <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Repositories</b>:<br></br> 3</ListGroup.Item>
+            <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Commits</b>:<br></br> 380</ListGroup.Item>
+            <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Commits in The Past Year</b>:<br></br> 380</ListGroup.Item>
+            <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Commits in The Past Week</b>:<br></br> 25</ListGroup.Item>
+            <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Followers</b>:<br></br> 5</ListGroup.Item>
+            <ListGroup.Item style={{ background: '#FCC8C2' }}><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
           </ListGroup>
         </Card>
         </CardStyled>
 
         <CardStyled>
         <Card style={{ width: '20rem' }}>
-          <Card.Header><b>Projects</b></Card.Header>
+          <Card.Header style={{ background: '#FCC8C2' }}><b>Projects</b></Card.Header>
           <ListGroup variant="flush">
            
-            <ListGroup.Item><b>TeenAIDers Website</b>: <br></br>Website for the AID chapter TeenAIDers.<br></br>(JavaScript, HTML, CSS)</ListGroup.Item>
+            <ListGroup.Item style={{ background: '#FCC8C2' }}><b>TeenAIDers Website</b>: <br></br>Website for the AID chapter TeenAIDers.<br></br>(JavaScript, HTML, CSS)</ListGroup.Item>
 
-             <ListGroup.Item><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
+             <ListGroup.Item style={{ background: '#FCC8C2' }}><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
           </ListGroup>
         </Card>
         </CardStyled>

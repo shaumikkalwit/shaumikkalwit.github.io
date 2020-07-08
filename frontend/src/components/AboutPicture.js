@@ -8,9 +8,7 @@ const AboutPicture = styled.img`
 		width: 20vw;
 		height: 45vh;
 
-  		border-radius: 50%;
-
-  		padding-bottom: 30px;
+  		padding-bottom: 20px;
 	}
 
   	width: 65vw;

@@ -20,7 +20,7 @@ const Container = styled.div`
 	text-align: center;
 	scroll-snap-align: start;
 
-	background-color: black;
+	background-color: #1B1B1E;
 
 `;
 
