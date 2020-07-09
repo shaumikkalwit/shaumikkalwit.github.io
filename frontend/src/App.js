@@ -61,8 +61,8 @@ class App extends React.Component {
           <Navbar.Brand style={{ color: '#8EF9F3' }} href="#LandingPage"><b>shaumikkalwit</b></Navbar.Brand>
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link style={{ color: '#FCC8C2' }} href="#AboutUs" >About Me</Nav.Link>
-            <Nav.Link style={{ color: '#FCC8C2' }} href="#Projects">Projects</Nav.Link>
+            <Nav.Link style={{ color: '#FCC8C2' }} href="#AboutUs" ><b>About Me</b></Nav.Link>
+            <Nav.Link style={{ color: '#FCC8C2' }} href="#Projects"><b>Projects</b></Nav.Link>
           </Nav>
           <div class="icons">
             {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
@@ -91,10 +91,10 @@ class App extends React.Component {
 
           <AboutPicture src={AboutMePicture}/>
 
-          <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose California. 
-          I go to Lynbrook High School. In my free time, I enjoy playing basketball, video games, as well as programming
-          in my free time. I am fluent in HTML, CSS, and Python. I also have some 
-          exposure to JavaScript and React. Learn more through my links!</AboutText>
+          <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose, California. 
+          I go to Lynbrook High School. In my free time, I enjoy playing basketball, video games, and programming. 
+          I am fluent in HTML, CSS. I also have some exposure to JavaScript and React JS. I am also learning Python.
+          Learn more through my links!</AboutText>
          </Section>
 
          <div id="Projects"></div>
