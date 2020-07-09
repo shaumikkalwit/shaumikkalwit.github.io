@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component, Fragment } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Card, ListGroup } from 'react-bootstrap';
@@ -23,106 +23,127 @@ import Instagram from './images/instagram.png';
 
 
 class App extends React.Component { 
+
   constructor(props) {
-      super(props);
-      this.state = { apiResponse: "" };
+    super(props);
+    this.state = {
+      items: [],
+      isLoaded: false,
+    }
   }
 
-  callAPI() {
-      fetch("http://localhost:9000/testAPI")
-          .then(res => res.text())
-          .then(res => this.setState({ apiResponse: res }));
+  componentDidMount() {
+
+    fetch('https://api.github.com/users/shaumikkalwit/repos')
+      .then(res => res.json())
+      .then(json => {
+        this.setState({
+          isLoaded: true,
+          items: json,
+        })
+      });
+
   }
 
-  componentWillMount() {
-      this.callAPI();
-  }
   render() {
-    return (
-    <div>
-     <div id="LandingPage"></div>
-     <p className="App-intro">;{this.state.apiResponse}</p>
-      <Navbar bg="dark" variant="dark" expand="lg" position="sticky" fixed="top">
-        <Navbar.Brand style={{ color: '#8EF9F3' }} href="#LandingPage"><b>shaumikkalwit</b></Navbar.Brand>
-        <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link style={{ color: '#FCC8C2' }} href="#AboutUs" >About Me</Nav.Link>
-          <Nav.Link style={{ color: '#FCC8C2' }} href="#Projects">Projects</Nav.Link>
-        </Nav>
-        <div class="icons">
-          {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
-          {/* Icons made by https://www.flaticon.com/authors/freepik */}
-          {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
-          <a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a>  
-          <a href="https://www.facebook.com/shaumik.kalwit/"><ImgLinks src={Facebook}/></a>
-          <a href="https://www.instagram.com/shaumikkalwit/"><ImgLinks src={Instagram}/></a>
-         </div>
-        </Navbar.Collapse>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      </Navbar>
+    var { isLoaded, items } = this.state;
 
-       <Flexbox>
-        <LandingPage>
-         <HomeTitle><b>Shaumik</b></HomeTitle>
-         <HomeTitle><b>Kalwit</b></HomeTitle>
+    if (!isLoaded) {
+      return <div>Loading...</div>;
+    }
 
-         <Scroll>Scroll to learn more.</Scroll>
-        </LandingPage>
+    else {
 
-       <div id="AboutUs"></div>
-       <Section>
+    }
+      return (
+      <div>
+       <div id="LandingPage"></div>
+        <Navbar bg="dark" variant="dark" expand="lg" position="sticky" fixed="top">
+          <Navbar.Brand style={{ color: '#8EF9F3' }} href="#LandingPage"><b>shaumikkalwit</b></Navbar.Brand>
+          <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link style={{ color: '#FCC8C2' }} href="#AboutUs" >About Me</Nav.Link>
+            <Nav.Link style={{ color: '#FCC8C2' }} href="#Projects">Projects</Nav.Link>
+          </Nav>
+          <div class="icons">
+            {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
+            {/* Icons made by https://www.flaticon.com/authors/freepik */}
+            {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
+            <a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a>  
+            <a href="https://www.facebook.com/shaumik.kalwit/"><ImgLinks src={Facebook}/></a>
+            <a href="https://www.instagram.com/shaumikkalwit/"><ImgLinks src={Instagram}/></a>
+           </div>
+          </Navbar.Collapse>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        </Navbar>
 
-        <Title>About Me</Title>
+         <Flexbox>
+          <LandingPage>
+           <HomeTitle><b>Shaumik</b></HomeTitle>
+           <HomeTitle><b>Kalwit</b></HomeTitle>
 
-        <AboutPicture src={AboutMePicture}/>
+           <Scroll>Scroll to learn more.</Scroll>
+          </LandingPage>
 
-        <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose California. 
-        I go to Lynbrook High School. In my free time, I enjoy playing basketball, video games, as well as programming
-        in my free time. I am fluent in HTML, CSS, and Python. I also have some 
-        exposure to JavaScript and React. Learn more through my links!</AboutText>
-       </Section>
+         <div id="AboutUs"></div>
+         <Section>
 
-       <div id="Projects"></div>
-       <ProjectsSection>
+          <Title>About Me</Title>
 
-        <Title>Projects</Title>
+          <AboutPicture src={AboutMePicture}/>
 
-        <CardFlexbox>
-        <CardStyled>
-        <Card style={{ width: '20rem' }}>
-          <Card.Header style={{ background: '#FCC8C2' }}><b>Github Stats</b></Card.Header>
-          <ListGroup variant="flush">
-            <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Repositories</b>:<br></br> 3</ListGroup.Item>
-            <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Commits</b>:<br></br> 380</ListGroup.Item>
-            <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Commits in The Past Year</b>:<br></br> 380</ListGroup.Item>
-            <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Commits in The Past Week</b>:<br></br> 25</ListGroup.Item>
-            <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Followers</b>:<br></br> 5</ListGroup.Item>
-            <ListGroup.Item style={{ background: '#FCC8C2' }}><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
-          </ListGroup>
-        </Card>
-        </CardStyled>
+          <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose California. 
+          I go to Lynbrook High School. In my free time, I enjoy playing basketball, video games, as well as programming
+          in my free time. I am fluent in HTML, CSS, and Python. I also have some 
+          exposure to JavaScript and React. Learn more through my links!</AboutText>
+         </Section>
 
-        <CardStyled>
-        <Card style={{ width: '20rem' }}>
-          <Card.Header style={{ background: '#FCC8C2' }}><b>Projects</b></Card.Header>
-          <ListGroup variant="flush">
-           
-            <ListGroup.Item style={{ background: '#FCC8C2' }}><b>TeenAIDers Website</b>: <br></br>Website for the AID chapter TeenAIDers.<br></br>(JavaScript, HTML, CSS)</ListGroup.Item>
+         <div id="Projects"></div>
+         <ProjectsSection>
 
-             <ListGroup.Item style={{ background: '#FCC8C2' }}><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
-          </ListGroup>
-        </Card>
-        </CardStyled>
-        </CardFlexbox>
+          <Title>Projects</Title>
 
-       </ProjectsSection>
+          <CardFlexbox>
+          <CardStyled>
+          <Card style={{ width: '20rem' }}>
+            <Card.Header style={{ background: '#FCC8C2' }}><b>Github Stats</b></Card.Header>
+            <ListGroup variant="flush">
+              <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Repositories</b>:<br></br> 3</ListGroup.Item>
+              <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Commits</b>:<br></br> 380</ListGroup.Item>
+              <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Commits in The Past Year</b>:<br></br> 380</ListGroup.Item>
+              <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Commits in The Past Week</b>:<br></br> 25</ListGroup.Item>
+              <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Followers</b>:<br></br> 5</ListGroup.Item>
+              <ListGroup.Item style={{ background: '#FCC8C2' }}><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
+            </ListGroup>
+          </Card>
+          </CardStyled>
 
-       <Footer>
-        <p style={{ color: '#FCC8C2' }}>Copyright © 2020 Shaumik Kalwit.</p>
-       </Footer>
+          <CardStyled>
+          <Card style={{ width: '20rem' }}>
+            <Card.Header style={{ background: '#FCC8C2' }}><b>Projects</b></Card.Header>
+            <ListGroup variant="flush">
+             
+              {items.map(item => (
+                <ListGroup.Item style={{ background: '#FCC8C2' }} key={item.id}>
+                  {item.name}: {item.description} ({item.language})
+                </ListGroup.Item>
+              ))};
 
-      </Flexbox>
-    </div>
+                <ListGroup.Item style={{ background: '#FCC8C2' }}><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
+
+            </ListGroup>
+          </Card>
+          </CardStyled>
+          </CardFlexbox>
+
+         </ProjectsSection>
+
+         <Footer>
+          <p style={{ color: '#FCC8C2' }}>Copyright © 2020 Shaumik Kalwit.</p>
+         </Footer>
+
+        </Flexbox>
+      </div>
   );
  }
 }
