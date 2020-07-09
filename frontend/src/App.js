@@ -42,7 +42,6 @@ class App extends React.Component {
           items: json,
         })
       });
-
   }
 
   render() {
@@ -125,9 +124,9 @@ class App extends React.Component {
              
               {items.map(item => (
                 <ListGroup.Item style={{ background: '#FCC8C2' }} key={item.id}>
-                  {item.name}: {item.description} ({item.language})
+                  <b>{item.name}</b>:<br></br> {item.description}<br></br> <i>{item.language}</i>
                 </ListGroup.Item>
-              ))};
+              ))}
 
                 <ListGroup.Item style={{ background: '#FCC8C2' }}><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
 
