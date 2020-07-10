@@ -5,6 +5,7 @@ const Container = styled.div`
 
 	display: flex;
 	flex-direction: column;
+	scroll-snap-type: y-mandatory:
 	overflow-x: hidden;
 
 	width: 100vw;

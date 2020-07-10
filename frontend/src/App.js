@@ -28,6 +28,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       items: [],
+      statsYearly: [],
       isLoaded: false,
     }
   }
@@ -42,10 +43,24 @@ class App extends React.Component {
           items: json,
         })
       });
+
+    fetch('https://api.github.com/repos/shaumikkalwit/TeenAIDers-Website/stats/commit_activity')
+      .then(res => res.json())
+      .then(json => {
+        var sumY = 0;
+        for (var i = 0; i < json.length; i++) {
+          var week = json[i];
+          sumY += week["total"];
+        }
+        this.setState({
+          statsYearly: sumY,
+        })
+      }); 
+  
   }
 
   render() {
-    var { isLoaded, items } = this.state;
+    var { isLoaded, items, statsYearly } = this.state;
 
     if (!isLoaded) {
       return <div>Loading...</div>;
@@ -107,7 +122,11 @@ class App extends React.Component {
           <Card style={{ width: '20rem' }}>
             <Card.Header style={{ background: '#FCC8C2' }}><b>Github Stats</b></Card.Header>
             <ListGroup variant="flush">
-              <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Repositories</b>:<br></br> 3</ListGroup.Item>
+
+              <ListGroup.Item style={{ background: '#FCC8C2' }}>
+                <b>Total Number of Commits in the Past Year:</b><br></br> {statsYearly}
+              </ListGroup.Item>
+
               <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Commits</b>:<br></br> 380</ListGroup.Item>
               <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Commits in The Past Year</b>:<br></br> 380</ListGroup.Item>
               <ListGroup.Item style={{ background: '#FCC8C2' }}><b>Total Number of Commits in The Past Week</b>:<br></br> 25</ListGroup.Item>
