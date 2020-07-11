@@ -6,8 +6,8 @@ const AboutText = styled.p`
 
 		font-size: 1.55vw;
 
-		padding-left: 23vw;
-  		padding-right: 23vw;
+		padding-left: 24vw;
+  		padding-right: 24vw;
 	}
 
 	color: #FCC8C2;

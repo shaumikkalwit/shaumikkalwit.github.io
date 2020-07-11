@@ -15,8 +15,8 @@ const Container = styled.div`
 		margin-left: 20vw;
 
   	}
-  	
-  	padding-top: 8vh;
+
+  	padding-top: 4vh;
 
 	display: flex;
 	flex-direction: column;
