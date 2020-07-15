@@ -5,10 +5,11 @@ const AboutPicture = styled.img`
 
 	@media (min-width: 992px) {
 
-		width: 20vw;
+		width: 18vw;
 		height: auto;
 
-  		padding-bottom: 20px;
+  		padding: 0;
+  		margin: 0;
 	}
 
   	width: 70vw;

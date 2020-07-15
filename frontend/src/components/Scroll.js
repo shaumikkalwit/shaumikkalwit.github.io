@@ -6,9 +6,13 @@ const Scroll = styled.p`
 	position: absolute;
 	bottom: 0;
 
-	color: #FCC8C2;
+	color: #FFDBDB;
 
 	font-family: "Courier New", Courier, monospace;
+
+	display: flex;
+	justify-content: center;
+	text-align: center;
 
 `;
 

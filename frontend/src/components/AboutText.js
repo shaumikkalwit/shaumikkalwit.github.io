@@ -4,13 +4,13 @@ import styled from 'styled-components';
 const AboutText = styled.p`
 	@media (min-width: 992px) {
 
-		font-size: 1.55vw;
+		font-size: 1.45vw;
 
 		padding-left: 24vw;
   		padding-right: 24vw;
 	}
 
-	color: #FCC8C2;
+	color: #FFDBDB;
 
 	font-size: 5vw;
 
