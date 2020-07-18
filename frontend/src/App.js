@@ -84,7 +84,7 @@ class App extends React.Component {
             {/* Icons made by https://www.flaticon.com/authors/freepik */}
             {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
             <a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a>
-            <a href="https://www.facebook.com/shaumik.kalwit/"><ImgLinks src={Facebook}/></a>
+            <a href="https://www.facebook.com/shaumikkalwit/"><ImgLinks src={Facebook}/></a>
             <a href="https://www.instagram.com/shaumikkalwit/"><ImgLinks src={Instagram}/></a>
            </div>
           </Navbar.Collapse>
@@ -98,7 +98,7 @@ class App extends React.Component {
 
         <Scroll>
          <div class="downArrow bounce">
-          <img width="60" height="60" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" />
+          <img width="50" height="50" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" />
          </div>
          </Scroll>
           </LandingPage>
@@ -109,17 +109,6 @@ class App extends React.Component {
           <Title>About Me</Title>
 
           <AboutPicture src={AboutMePicture}/>
-
-          <div class="icons">
-            {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
-            {/* Icons made by https://www.flaticon.com/authors/freepik */}
-            {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
-            <a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a>
-            <a href="https://www.facebook.com/shaumik.kalwit/"><ImgLinks src={Facebook}/></a>
-            <a href="https://www.instagram.com/shaumikkalwit/"><ImgLinks src={Instagram}/></a>
-           </div>
-
-          <p><a href="https://www.google.com/maps/place/San+Francisco+Bay+Area,+CA/@37.8760519,-123.541586,8z/data=!3m1!4b1!4m5!3m4!1s0x808583a3a688d7b5:0x8c891b8457461fa9!8m2!3d37.8271784!4d-122.2913078" style={{ color: '#FFDBDB'}}>Bay Area, CA</a></p>
 
           <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose, California and I go to Lynbrook High School.
           In my free time, I enjoy playing video games, playing basketball, and programming. I am very determined, caring,
@@ -172,6 +161,14 @@ class App extends React.Component {
          </ProjectsSection>
 
          <Footer>
+         <div class="icons">
+           {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
+           {/* Icons made by https://www.flaticon.com/authors/freepik */}
+           {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
+           <a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a>
+           <a href="https://www.facebook.com/shaumikkalwit/"><ImgLinks src={Facebook}/></a>
+           <a href="https://www.instagram.com/shaumikkalwit/"><ImgLinks src={Instagram}/></a>
+          </div>
           <p style={{ color: '#FFDBDB' }}>Copyright © 2020 Shaumik Kalwit.</p>
          </Footer>
 
