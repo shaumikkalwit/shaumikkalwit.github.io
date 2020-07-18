@@ -12,15 +12,15 @@ const Container = styled.div`
   	padding-top: 56px;
 
   	width: 100vw;
-	height: auto;
+  	height: auto;
 
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;	
-	text-align: center;
-	scroll-snap-align: start;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: flex-start;
+  	text-align: center;
+  	scroll-snap-align: start;
 
-	background-color: #1B1B1E;
+  	background-color: #1B1B1E;
 
 `;
 

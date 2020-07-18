@@ -22,7 +22,7 @@ import Footer from './components/Footer';
 import Instagram from './images/instagram.png';
 
 
-class App extends React.Component { 
+class App extends React.Component {
 
   constructor(props) {
     super(props);
@@ -55,8 +55,8 @@ class App extends React.Component {
         this.setState({
           statsYearly: sumY,
         })
-      }); 
-  
+      });
+
   }
 
   render() {
@@ -83,7 +83,7 @@ class App extends React.Component {
             {/* Icons made by https://www.flaticon.com/authors/freepik */}
             {/* Icons made by https://www.flaticon.com/authors/freepik */}
             {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
-            <a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a>  
+            <a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a>
             <a href="https://www.facebook.com/shaumik.kalwit/"><ImgLinks src={Facebook}/></a>
             <a href="https://www.instagram.com/shaumikkalwit/"><ImgLinks src={Instagram}/></a>
            </div>
@@ -114,15 +114,17 @@ class App extends React.Component {
             {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
             {/* Icons made by https://www.flaticon.com/authors/freepik */}
             {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
-            <a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a>  
+            <a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a>
             <a href="https://www.facebook.com/shaumik.kalwit/"><ImgLinks src={Facebook}/></a>
             <a href="https://www.instagram.com/shaumikkalwit/"><ImgLinks src={Instagram}/></a>
            </div>
 
-          <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose, California. 
-          I go to Lynbrook High School. In my free time, I enjoy playing basketball, video games, and programming. 
-          I am fluent in HTML, CSS. I also have some exposure to JavaScript and React JS. I am also learning Python.
-          Learn more through my links!</AboutText>
+          <p><a href="https://www.google.com/maps/place/San+Francisco+Bay+Area,+CA/@37.8760519,-123.541586,8z/data=!3m1!4b1!4m5!3m4!1s0x808583a3a688d7b5:0x8c891b8457461fa9!8m2!3d37.8271784!4d-122.2913078" style={{ color: '#FFDBDB'}}>Bay Area, CA</a></p>
+
+          <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose, California and I go to Lynbrook High School.
+          In my free time, I enjoy playing video games, playing basketball, and programming. I am very determined, caring,
+          and hard-working. In terms of my coding abilities, I am fluent in HTML, CSS, and Python. I also have some exposure
+          to React JS and React-Native. Learn more through my links!</AboutText>
          </Section>
 
          <div id="Projects"></div>
@@ -153,7 +155,7 @@ class App extends React.Component {
           <Card style={{ width: '20rem' }}>
             <Card.Header style={{ background: '#FFDBDB' }}><b>Projects</b></Card.Header>
             <ListGroup variant="flush">
-             
+
               {items.map(item => (
                 <ListGroup.Item style={{ background: '#FFDBDB' }} key={item.id}>
                   <b>{item.name}</b>:<br></br> {item.description}<br></br> <i>{item.language}</i>
