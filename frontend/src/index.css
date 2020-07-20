@@ -24,9 +24,9 @@ html {
   bottom: 0;
 }
 .bounce {
-  -moz-animation: bounce 3s infinite;
-  -webkit-animation: bounce 3s infinite;
-  animation: bounce 3s infinite;
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
 }
 @-moz-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -76,6 +76,3 @@ html {
     transform: translateY(-15px);
   }
 }
-
-
-

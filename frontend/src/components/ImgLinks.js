@@ -9,6 +9,12 @@ const ImgLinks = styled.img`
 
 	}
 
+	@media only screen and (device-width: 768px) {
+
+		
+
+	}
+
   	height: 3vh;
 
 

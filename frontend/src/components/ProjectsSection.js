@@ -9,6 +9,12 @@ const Container = styled.div`
 
   	}
 
+    @media only screen and (device-width: 768px) {
+
+      padding-bottom: 56px;
+
+    }
+
   	padding-top: 56px;
 
   	width: 100vw;

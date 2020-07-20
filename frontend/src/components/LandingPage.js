@@ -9,18 +9,34 @@ const Container = styled.div`
 		background-position: 50% 60%;
 	}
 
+	@media only screen and (device-width: 768px) {
+
+		background-position: 50% 60%;
+
+		width: 100vw;
+		height: 100vh;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		scroll-snap-align: start;
+
+	}
+
  	background-image: url(${Background});
-  	background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	background-size: cover;
-  	background-position: 100% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 100% 50%;
 
 	width: 100vw;
 	height: 100vh;
 
 	display: flex;
 	flex-direction: column;
-	justify-content: center;	
+	justify-content: center;
 	align-items: center;
 	text-align: center;
 	scroll-snap-align: start;

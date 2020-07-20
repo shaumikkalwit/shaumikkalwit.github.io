@@ -13,14 +13,18 @@ const Footer = styled.footer`
 
   	}
 
+    @media only screen and (device-width: 768px) {
+
+    }
+
   	background-color: #1B1B1E;
 
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  	display: flex;
+    flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
 
-	width: 100vw;
-	height: 6vh;
+  	width: 100vw;
 
 `;
 

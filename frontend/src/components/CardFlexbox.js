@@ -16,11 +16,15 @@ const Container = styled.div`
 
   	}
 
+    @media only screen and (device-width: 768px) {
+
+    }
+
   	padding-top: 4vh;
 
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;	
+	justify-content: space-around;
 	align-items: center;
 	text-align: center;
 

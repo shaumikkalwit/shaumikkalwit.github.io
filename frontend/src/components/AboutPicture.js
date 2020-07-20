@@ -8,14 +8,24 @@ const AboutPicture = styled.img`
 		width: 18vw;
 		height: auto;
 
-  		padding: 0;
-  		margin: 0;
+  	padding: 0;
+  	margin: 0;
 	}
 
-  	width: 70vw;
+	@media only screen and (device-width: 768px) {
+
+		width: 40vw;
+		height: auto;
+
+  	padding: 0;
+  	margin: 0;
+
+	}
+
+  width: 70vw;
 	height: auto;
 
-  	border-radius: 50%;
+  border-radius: 50%;
 
 `;
 
