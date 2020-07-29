@@ -10,14 +10,6 @@ const AboutText = styled.p`
   	padding-right: 22vw;
 	}
 
-	@media only screen and (device-width: 768px) {
-
-		font-size: 3.4vw;
-
-		padding-left: 10vw;
-  	padding-right: 10vw;
-
-	}
 
 	color: #FFDBDB;
 

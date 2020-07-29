@@ -9,12 +9,6 @@ const Container = styled.div`
 
   	}
 
-    @media only screen and (device-width: 768px) {
-
-      padding-bottom: 56px;
-
-    }
-
   	padding-top: 56px;
 
   	width: 100vw;
@@ -24,7 +18,6 @@ const Container = styled.div`
   	flex-direction: column;
   	justify-content: flex-start;
   	text-align: center;
-  	scroll-snap-align: start;
 
   	background-color: #1B1B1E;
 

@@ -13,10 +13,6 @@ const Footer = styled.footer`
 
   	}
 
-    @media only screen and (device-width: 768px) {
-
-    }
-
   	background-color: #1B1B1E;
 
   	display: flex;

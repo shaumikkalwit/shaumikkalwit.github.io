@@ -16,10 +16,6 @@ const Container = styled.div`
 
   	}
 
-    @media only screen and (device-width: 768px) {
-
-    }
-
   	padding-top: 4vh;
 
 	display: flex;

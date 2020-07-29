@@ -12,15 +12,6 @@ const AboutPicture = styled.img`
   	margin: 0;
 	}
 
-	@media only screen and (device-width: 768px) {
-
-		width: 40vw;
-		height: auto;
-
-  	padding: 0;
-  	margin: 0;
-
-	}
 
   width: 70vw;
 	height: auto;

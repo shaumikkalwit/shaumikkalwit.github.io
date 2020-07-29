@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ImgLinks = styled.img`
+const ImgLinksG = styled.img`
 
 	@media (min-width: 992px) {
 
@@ -10,11 +10,6 @@ const ImgLinks = styled.img`
 	}
 
   	height: 3vh;
-
-  	margin-top: 15px;
-  	margin-bottom: 10px;
-  	margin-right: 15px;
-
 `;
 
-export default ImgLinks;
+export default ImgLinksG;

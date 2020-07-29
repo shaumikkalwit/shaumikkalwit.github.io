@@ -6,7 +6,6 @@ import Flexbox from './components/Flexbox';
 import Section from './components/Section';
 import ProjectsSection from './components/ProjectsSection';
 import CardFlexbox from './components/CardFlexbox';
-import CardStyled from './components/CardStyled';
 import LandingPage from './components/LandingPage';
 import HomeTitle from './components/HomeTitle';
 import Scroll from './components/Scroll';
@@ -15,6 +14,7 @@ import AboutPicture from './components/AboutPicture';
 import AboutMePicture from './images/aboutpicture.jpg';
 import Title from './components/Title';
 import ImgLinks from './components/ImgLinks';
+import ImgLinksG from './components/ImgLinksG';
 import Facebook from './images/facebook (1).png';
 import Github from './images/github.png';
 import Footer from './components/Footer';
@@ -113,8 +113,8 @@ class App extends React.Component {
 
           <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose, California and I go to Lynbrook High School.
           In my free time, I enjoy playing video games, playing basketball, and programming. I am very determined, caring,
-          and hard-working. In terms of my coding abilities, I am fluent in HTML, CSS, JavaScript, and Python. I also have some exposure
-          to React JS and React-Native. Learn more through my links!</AboutText>
+          and hard-working. In terms of my coding abilities, I am fluent in HTML and CSS. I also have some exposure
+          to React JS and React-Native and I am currently learning Python and JavaScript. Learn more through my links!</AboutText>
          </Section>
 
          <div id="Projects"></div>
@@ -123,25 +123,7 @@ class App extends React.Component {
           <Title>Projects</Title>
 
           <CardFlexbox>
-          <CardStyled>
-          <Card style={{ width: '20rem' }}>
-            <Card.Header style={{ background: '#FFDBDB' }}><b>Github Stats</b></Card.Header>
-            <ListGroup variant="flush">
 
-              <ListGroup.Item style={{ background: '#FFDBDB' }}>
-                <b>Total Number of Commits in the Past Year:</b><br></br> {statsYearly}
-              </ListGroup.Item>
-
-              <ListGroup.Item style={{ background: '#FFDBDB' }}><b>Total Number of Commits</b>:<br></br> 380</ListGroup.Item>
-              <ListGroup.Item style={{ background: '#FFDBDB' }}><b>Total Number of Commits in The Past Year</b>:<br></br> 380</ListGroup.Item>
-              <ListGroup.Item style={{ background: '#FFDBDB' }}><b>Total Number of Commits in The Past Week</b>:<br></br> 25</ListGroup.Item>
-              <ListGroup.Item style={{ background: '#FFDBDB' }}><b>Total Number of Followers</b>:<br></br> 5</ListGroup.Item>
-              <ListGroup.Item style={{ background: '#FFDBDB' }}><a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a></ListGroup.Item>
-            </ListGroup>
-          </Card>
-          </CardStyled>
-
-          <CardStyled>
           <Card style={{ width: '20rem' }}>
             <Card.Header style={{ background: '#FFDBDB' }}><b>Projects</b></Card.Header>
             <ListGroup variant="flush">
@@ -152,11 +134,10 @@ class App extends React.Component {
                 </ListGroup.Item>
               ))}
 
-                <ListGroup.Item style={{ background: '#FFDBDB' }}><a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a></ListGroup.Item>
+                <ListGroup.Item style={{ background: '#FFDBDB' }}><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
 
             </ListGroup>
           </Card>
-          </CardStyled>
           </CardFlexbox>
 
          </ProjectsSection>

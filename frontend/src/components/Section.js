@@ -12,10 +12,9 @@ const Container = styled.div`
 
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;	
+	justify-content: space-between;
 	align-items: center;
 	text-align: center;
-	scroll-snap-align: start;
 
 `;
 

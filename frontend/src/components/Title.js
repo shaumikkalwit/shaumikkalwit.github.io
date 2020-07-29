@@ -8,12 +8,6 @@ const Title = styled.h1`
 		font-size: 4.5vw;
 	}
 
-	@media only screen and (device-width: 768px) {
-
-		font-size: 4.5vw;
-
-	}
-
 	color: #8EF9F3;
 
 	font-size: 14vw;
