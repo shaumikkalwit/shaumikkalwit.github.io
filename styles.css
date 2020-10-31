@@ -44,14 +44,14 @@ body {
 
 .LandingTitle h1 {
 	font-size: 15vw;
-	color: #FFDBDB;
+	color: #8EF9F3;
 }
 
 .Scroll {
 	position: absolute;
 	bottom: 0;
 
-	color: #8EF9F3;
+	color: #FFDBDB;
 	font-family: "Courier New", Courier, monospace;
 }
 
@@ -71,7 +71,7 @@ body {
 	margin-top: 12vh;
 
 	font-size: 15vw;
-	color: #FFDBDB;
+	color: #8EF9F3;
 }
 
 .AboutMePicture img {
@@ -79,4 +79,13 @@ body {
 	height: auto;
 
 	border-radius: 50%;
+}
+
+.AboutMeText p {
+	margin-top: 5vh;
+	margin-right: 8vw;
+	margin-left: 8vw;
+
+	font-size: 4.6vw;
+	color: #FFDBDB;
 }
