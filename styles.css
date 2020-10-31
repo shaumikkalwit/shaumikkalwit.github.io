@@ -73,3 +73,10 @@ body {
 	font-size: 15vw;
 	color: #FFDBDB;
 }
+
+.AboutMePicture img {
+	width: 70vw;
+	height: auto;
+
+	border-radius: 50%;
+}
