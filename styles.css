@@ -102,9 +102,6 @@ body {
 	text-align: center;
 }
 
-.list-group {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+.list-group-item {
+	background-color: #FFDBDB;
 }
