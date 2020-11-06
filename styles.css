@@ -102,6 +102,16 @@ body {
 	text-align: center;
 }
 
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center
+	align-items: center;
+	text-align: center;
+
+	margin-top: 10vh;
+}
+
 .list-group-item {
 	background-color: #FFDBDB;
 }
