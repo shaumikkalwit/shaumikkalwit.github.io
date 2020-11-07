@@ -105,7 +105,7 @@ body {
 .card {
 	display: flex;
 	flex-direction: column;
-	justify-content: center
+	justify-content: center;
 	align-items: center;
 	text-align: center;
 
@@ -114,4 +114,19 @@ body {
 
 .list-group-item {
 	background-color: #FFDBDB;
+}
+
+.Footer {
+	background-color: #1B1B1E;
+
+	width: 100vw;
+	height: 6vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	color: #FFDBDB;
 }
