@@ -81,8 +81,12 @@ body {
 	border-radius: 50%;
 }
 
+.AboutPlace {
+	margin-top: 1vh;
+}
+
 .AboutMeText p {
-	margin-top: 5vh;
+	margin-top: 1vh;
 	margin-right: 8vw;
 	margin-left: 8vw;
 
@@ -160,5 +164,29 @@ body {
 
 	.LandingTitle h1 {
 		font-size: 7vw;
+	}
+
+	.Titles h1 {
+		margin-top: 12vh;
+
+		font-size: 4.5vw;
+		color: #8EF9F3;
+	}
+
+	.AboutMePicture img {
+		width: 16vw;
+		height: auto;
+	}
+
+	.AboutMeText p {
+		margin-top: 2vh;
+		margin-right: 23vw;
+		margin-left: 23vw;
+
+		font-size: 1.5vw;
+	}
+
+	.AboutPlace {
+		margin-top: 3vh;
 	}
 }
