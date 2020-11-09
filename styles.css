@@ -86,6 +86,7 @@ body {
 	margin-left: 8vw;
 
 	color: #FFDBDB;
+	font-family: "Courier New", Courier, monospace;
 }
 
 .SectionThree {
@@ -112,6 +113,7 @@ body {
 
 .list-group-item {
 	background-color: #FFDBDB;
+	font-family: "Courier New", Courier, monospace;
 }
 
 .Footer {
@@ -127,6 +129,7 @@ body {
 	text-align: center;
 
 	color: #FFDBDB;
+	font-family: "Courier New", Courier, monospace;
 }
 
 @media only screen and (min-width: 992px) {
@@ -177,7 +180,7 @@ body {
 		margin-right: 23vw;
 		margin-left: 23vw;
 
-		font-size: 1.5vw;
+		font-size: 1.2vw;
 	}
 
 	.AboutPlace {
