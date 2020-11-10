@@ -50,9 +50,6 @@ body {
 .Scroll {
 	position: absolute;
 	bottom: 0;
-
-	color: #FFDBDB;
-	font-family: "Courier New", Courier, monospace;
 }
 
 .SectionTwo {
