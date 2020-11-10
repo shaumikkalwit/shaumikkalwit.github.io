@@ -1,0 +1,163 @@
+import React, { Component, Fragment } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Navbar, Nav } from 'react-bootstrap';
+import { Card, ListGroup } from 'react-bootstrap';
+import Flexbox from './components/Flexbox';
+import Section from './components/Section';
+import ProjectsSection from './components/ProjectsSection';
+import CardFlexbox from './components/CardFlexbox';
+import LandingPage from './components/LandingPage';
+import HomeTitle from './components/HomeTitle';
+import Scroll from './components/Scroll';
+import AboutText from './components/AboutText';
+import AboutPicture from './components/AboutPicture';
+import AboutMePicture from './images/aboutpicture.jpg';
+import Title from './components/Title';
+import ImgLinks from './components/ImgLinks';
+import ImgLinksG from './components/ImgLinksG';
+import Facebook from './images/facebook (1).png';
+import Github from './images/github.png';
+import Footer from './components/Footer';
+import Instagram from './images/instagram.png';
+
+
+class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      items: [],
+      statsYearly: [],
+      isLoaded: false,
+    }
+  }
+
+  componentDidMount() {
+
+    fetch('https://api.github.com/users/shaumikkalwit/repos')
+      .then(res => res.json())
+      .then(json => {
+        this.setState({
+          isLoaded: true,
+          items: json,
+        })
+      });
+
+    fetch('https://api.github.com/repos/shaumikkalwit/TeenAIDers-Website/stats/commit_activity')
+      .then(res => res.json())
+      .then(json => {
+        var sumY = 0;
+        for (var i = 0; i < json.length; i++) {
+          var week = json[i];
+          sumY += week["total"];
+        }
+        this.setState({
+          statsYearly: sumY,
+        })
+      });
+
+  }
+
+  render() {
+    var { isLoaded, items, statsYearly } = this.state;
+
+    if (!isLoaded) {
+      return <div>Loading...</div>;
+    }
+
+    else {
+
+    }
+      return (
+      <div>
+       <div id="LandingPage"></div>
+        <Navbar bg="dark" variant="dark" expand="lg" position="sticky" fixed="top">
+          <Navbar.Brand style={{ color: '#8EF9F3' }} href="#LandingPage"><b>shaumikkalwit</b></Navbar.Brand>
+          <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link style={{ color: '#FFDBDB' }} href="#AboutUs" ><b>About Me</b></Nav.Link>
+            <Nav.Link style={{ color: '#FFDBDB' }} href="#Projects"><b>Projects</b></Nav.Link>
+          </Nav>
+          <div class="icons">
+            {/* Icons made by https://www.flaticon.com/authors/freepik */}
+            {/* Icons made by https://www.flaticon.com/authors/freepik */}
+            {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
+            <a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a>
+            <a href="https://www.facebook.com/shaumikkalwit/"><ImgLinks src={Facebook}/></a>
+            <a href="https://www.instagram.com/shaumikkalwit/"><ImgLinks src={Instagram}/></a>
+           </div>
+          </Navbar.Collapse>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        </Navbar>
+
+         <Flexbox>
+          <LandingPage>
+           <HomeTitle><b>Shaumik</b></HomeTitle>
+           <HomeTitle><b>Kalwit</b></HomeTitle>
+
+        <Scroll>
+         <div class="downArrow bounce">
+          <img width="50" height="50" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" />
+         </div>
+        </Scroll>
+       </LandingPage>
+
+         <div id="AboutUs"></div>
+         <Section>
+
+          <Title>About Me</Title>
+
+          <AboutPicture src={AboutMePicture}/>
+
+          <p><a href="https://www.google.com/maps/place/San+Francisco+Bay+Area,+CA/@37.8760519,-123.541586,8z/data=!3m1!4b1!4m5!3m4!1s0x808583a3a688d7b5:0x8c891b8457461fa9!8m2!3d37.8271784!4d-122.2913078" style={{ color: '#FFDBDB' }}>Bay Area, CA</a></p>
+
+          <AboutText>Hi there! My name is Shaumik Kalwit. I live in San Jose, California and I go to Lynbrook High School.
+          In my free time, I enjoy playing video games, playing basketball, and programming. I am very determined, caring,
+          and hard-working. In terms of my coding abilities, I am fluent in HTML and CSS. I also have some exposure
+          to React JS and React-Native and I am currently learning Python and JavaScript. Learn more through my links!</AboutText>
+         </Section>
+
+         <div id="Projects"></div>
+         <ProjectsSection>
+
+          <Title>Projects</Title>
+
+          <CardFlexbox>
+
+          <Card style={{ width: '20rem' }}>
+            <Card.Header style={{ background: '#FFDBDB' }}><b>Projects</b></Card.Header>
+            <ListGroup variant="flush">
+
+              {items.map(item => (
+                <ListGroup.Item style={{ background: '#FFDBDB' }} key={item.id}>
+                  <b>{item.name}</b>:<br></br> {item.description}<br></br> <i>{item.language}</i>
+                </ListGroup.Item>
+              ))}
+
+                <ListGroup.Item style={{ background: '#FFDBDB' }}><a href="https://github.com/shaumikkalwit"><ImgLinksG src={Github}/></a></ListGroup.Item>
+
+            </ListGroup>
+          </Card>
+          </CardFlexbox>
+
+         </ProjectsSection>
+
+         <Footer>
+         <div class="icons">
+           {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
+           {/* Icons made by https://www.flaticon.com/authors/freepik */}
+           {/* Icons made by https://www.flaticon.com/authors/pixel-perfect */}
+           <a href="https://github.com/shaumikkalwit"><ImgLinks src={Github}/></a>
+           <a href="https://www.facebook.com/shaumikkalwit/"><ImgLinks src={Facebook}/></a>
+           <a href="https://www.instagram.com/shaumikkalwit/"><ImgLinks src={Instagram}/></a>
+          </div>
+          <p style={{ color: '#FFDBDB' }}>Copyright © 2020 Shaumik Kalwit.</p>
+         </Footer>
+
+        </Flexbox>
+      </div>
+  );
+ }
+}
+
+export default App;
