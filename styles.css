@@ -177,16 +177,16 @@ body {
 	}
 
 	.AboutMePicture img {
-		width: 16vw;
-		height: auto;
+		width: auto;
+		height: 38vh;
 	}
 
 	.AboutMeText p {
-		margin-top: 2vh;
+		margin-top: 1vh;
 		margin-right: 23vw;
 		margin-left: 23vw;
 
-		font-size: 1.2vw;
+		font-size: 1.1vw;
 	}
 
 	.AboutPlace {
